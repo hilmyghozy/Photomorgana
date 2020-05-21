@@ -17,8 +17,10 @@ class EditViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         imgPriview.image = newImage
-        // Do any additional setup after loading the view.
+        
     }
+    
+    
     
 
 }
