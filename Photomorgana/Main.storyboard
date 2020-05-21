@@ -123,10 +123,38 @@
                         </connections>
                     </collectionView>
                     <navigationItem key="navigationItem" id="oNj-04-sDx"/>
+                    <connections>
+                        <segue destination="EX0-SR-LFw" kind="show" id="IQS-Kx-YB7"/>
+                    </connections>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kVE-qO-iE4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1578" y="-760"/>
+        </scene>
+        <!--Edit View Controller-->
+        <scene sceneID="ey1-lC-dYI">
+            <objects>
+                <viewController storyboardIdentifier="EditViewController" id="EX0-SR-LFw" customClass="EditViewController" customModule="Photomorgana" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AJ1-Ou-G3x">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="C15-Mz-wEd">
+                                <rect key="frame" x="0.0" y="170" width="375" height="375"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="UvG-hz-Ezp"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="yZS-uJ-1gu"/>
+                    <connections>
+                        <outlet property="imgPriview" destination="C15-Mz-wEd" id="yIl-gK-2Ru"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h1X-iZ-A7S" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2524" y="-760.34482758620697"/>
         </scene>
     </scenes>
     <resources>

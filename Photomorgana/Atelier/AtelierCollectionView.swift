@@ -31,6 +31,15 @@ class AtelierCollectionView: UICollectionViewController, UINavigationControllerD
         
         return cell
     }
+    override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        if let viewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "EditViewController") as? EditViewController {
+            if let navigator = navigationController {
+                viewController.newImage = images[indexPath.row]
+                viewController.hidesBottomBarWhenPushed = true
+                navigator.pushViewController(viewController, animated: true)
+            }
+        }
+    }
     
     
     @objc func importPhoto(){
