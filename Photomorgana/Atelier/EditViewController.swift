@@ -40,8 +40,7 @@ class EditViewController: UIViewController {
         sheetController.extendBackgroundBehindHandle = true
         
         // Change the overlay color
-        sheetController.overlayColor = UIColor.red
-
+        sheetController.overlayColor = UIColor.init(red: 255/255, green: 255/255, blue: 255/255, alpha: 0)
         // Change the handle color
         sheetController.handleColor = UIColor.orange
 
