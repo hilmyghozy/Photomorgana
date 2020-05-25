@@ -101,6 +101,9 @@
 		0AF1F9A124728A28000CD720 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
 		16A68E7B1FE807D5C1ED31C8 /* Pods-PhotomorganaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotomorganaTests.release.xcconfig"; path = "Target Support Files/Pods-PhotomorganaTests/Pods-PhotomorganaTests.release.xcconfig"; sourceTree = "<group>"; };
 		18EF41AD60FBEEFD2BDCF0F3 /* Pods_PhotomorganaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotomorganaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DCA61CF247B81820058E078 /* SignUpOrLogIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUpOrLogIn.storyboard; sourceTree = "<group>"; };
+		3DCA61D0247B81820058E078 /* ProfileTab.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProfileTab.storyboard; sourceTree = "<group>"; };
+		3DCA61D1247B81830058E078 /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
 		AB65C04F08212E45DF3706EE /* Pods-Photomorgana.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Photomorgana.debug.xcconfig"; path = "Target Support Files/Pods-Photomorgana/Pods-Photomorgana.debug.xcconfig"; sourceTree = "<group>"; };
 		BBAECA659D5BD74728592041 /* Pods_Photomorgana.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Photomorgana.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEFE2117D243E03BD5C42C52 /* Pods-Photomorgana-PhotomorganaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Photomorgana-PhotomorganaUITests.release.xcconfig"; path = "Target Support Files/Pods-Photomorgana-PhotomorganaUITests/Pods-Photomorgana-PhotomorganaUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -166,12 +169,12 @@
 		0A0CF07A246964540033BB4E /* Photomorgana */ = {
 			isa = PBXGroup;
 			children = (
+				3DCA61CA247B813E0058E078 /* Storyboard */,
 				0A55FC102476A00600605CF1 /* Atelier */,
 				0A0CF07B246964540033BB4E /* AppDelegate.swift */,
 				0A0CF07D246964540033BB4E /* SceneDelegate.swift */,
 				0A0CF081246964540033BB4E /* SecondViewController.swift */,
 				0A0CF0AD246967600033BB4E /* ThirdViewController.swift */,
-				0A7BDFAC24725CFC00655024 /* Main.storyboard */,
 				0A0CF086246964560033BB4E /* Assets.xcassets */,
 				0A0CF088246964560033BB4E /* LaunchScreen.storyboard */,
 				0A0CF08B246964560033BB4E /* Info.plist */,
@@ -241,6 +244,17 @@
 				18EF41AD60FBEEFD2BDCF0F3 /* Pods_PhotomorganaTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3DCA61CA247B813E0058E078 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				3DCA61D0247B81820058E078 /* ProfileTab.storyboard */,
+				3DCA61D1247B81830058E078 /* Settings.storyboard */,
+				3DCA61CF247B81820058E078 /* SignUpOrLogIn.storyboard */,
+				0A7BDFAC24725CFC00655024 /* Main.storyboard */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 		52D65866918F720E0D2F63B5 /* Pods */ = {
