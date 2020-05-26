@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A094C4F247D61AB009E0C6E /* Explore.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A094C4E247D61AB009E0C6E /* Explore.storyboard */; };
+		0A094C53247D69EE009E0C6E /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A094C52247D69EE009E0C6E /* Profile.storyboard */; };
 		0A0CF07C246964540033BB4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0CF07B246964540033BB4E /* AppDelegate.swift */; };
 		0A0CF07E246964540033BB4E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0CF07D246964540033BB4E /* SceneDelegate.swift */; };
 		0A0CF080246964540033BB4E /* AtelierCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0CF07F246964540033BB4E /* AtelierCollectionView.swift */; };
@@ -39,7 +41,6 @@
 		0A7BDFAD24725CFC00655024 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A7BDFAC24725CFC00655024 /* Main.storyboard */; };
 		0AF1F9A224728A28000CD720 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF1F9A124728A28000CD720 /* Photos.framework */; };
 		0D239F6F8729DBBB319FF0A5 /* Pods_PhotomorganaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EF41AD60FBEEFD2BDCF0F3 /* Pods_PhotomorganaTests.framework */; };
-		3D7EFAFA247D260400B2785A /* Explore.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D7EFAF9247D260400B2785A /* Explore.storyboard */; };
 		83092A6A3240A9C9A9DFA82F /* Pods_Photomorgana.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBAECA659D5BD74728592041 /* Pods_Photomorgana.framework */; };
 		B30396497BA85B607B297799 /* Pods_Photomorgana_PhotomorganaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C46C190C6A3C0B9F6787FFD8 /* Pods_Photomorgana_PhotomorganaUITests.framework */; };
 /* End PBXBuildFile section */
@@ -62,6 +63,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A094C4E247D61AB009E0C6E /* Explore.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Explore.storyboard; sourceTree = "<group>"; };
+		0A094C52247D69EE009E0C6E /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		0A0CF078246964540033BB4E /* Photomorgana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Photomorgana.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A0CF07B246964540033BB4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A0CF07D246964540033BB4E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,7 +105,6 @@
 		0AF1F9A124728A28000CD720 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
 		16A68E7B1FE807D5C1ED31C8 /* Pods-PhotomorganaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotomorganaTests.release.xcconfig"; path = "Target Support Files/Pods-PhotomorganaTests/Pods-PhotomorganaTests.release.xcconfig"; sourceTree = "<group>"; };
 		18EF41AD60FBEEFD2BDCF0F3 /* Pods_PhotomorganaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotomorganaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D7EFAF9247D260400B2785A /* Explore.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Explore.storyboard; sourceTree = "<group>"; };
 		3DCA61CF247B81820058E078 /* SignUpOrLogIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUpOrLogIn.storyboard; sourceTree = "<group>"; };
 		3DCA61D0247B81820058E078 /* ProfileTab.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProfileTab.storyboard; sourceTree = "<group>"; };
 		3DCA61D1247B81830058E078 /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
@@ -255,7 +257,8 @@
 				3DCA61D1247B81830058E078 /* Settings.storyboard */,
 				3DCA61CF247B81820058E078 /* SignUpOrLogIn.storyboard */,
 				0A7BDFAC24725CFC00655024 /* Main.storyboard */,
-				3D7EFAF9247D260400B2785A /* Explore.storyboard */,
+				0A094C52247D69EE009E0C6E /* Profile.storyboard */,
+				0A094C4E247D61AB009E0C6E /* Explore.storyboard */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -389,6 +392,7 @@
 				0A78BED224696D7900D7A530 /* SF-Pro-Text-LightItalic.otf in Resources */,
 				0A78BECE24696D7900D7A530 /* SF-Pro-Text-BoldItalic.otf in Resources */,
 				0A78BED724696D7900D7A530 /* SF-Pro-Text-Semibold.otf in Resources */,
+				0A094C53247D69EE009E0C6E /* Profile.storyboard in Resources */,
 				0A0CF087246964560033BB4E /* Assets.xcassets in Resources */,
 				0A78BECD24696D7900D7A530 /* SF-Pro-Text-Bold.otf in Resources */,
 				0A78BED524696D7900D7A530 /* SF-Pro-Text-Regular.otf in Resources */,
@@ -400,7 +404,7 @@
 				0A78BED324696D7900D7A530 /* SF-Pro-Text-Medium.otf in Resources */,
 				0A78BECB24696D7900D7A530 /* SF-Pro-Text-Black.otf in Resources */,
 				0A78BECC24696D7900D7A530 /* SF-Pro-Text-BlackItalic.otf in Resources */,
-				3D7EFAFA247D260400B2785A /* Explore.storyboard in Resources */,
+				0A094C4F247D61AB009E0C6E /* Explore.storyboard in Resources */,
 				0A78BECF24696D7900D7A530 /* SF-Pro-Text-Heavy.otf in Resources */,
 				0A78BEDA24696D7900D7A530 /* SF-Pro-Text-ThinItalic.otf in Resources */,
 				0A78BEDB24696D7900D7A530 /* SF-Pro-Text-Ultralight.otf in Resources */,

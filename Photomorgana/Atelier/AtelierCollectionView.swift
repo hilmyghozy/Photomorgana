@@ -46,6 +46,7 @@ class AtelierCollectionView: UICollectionViewController, UINavigationControllerD
         let picker = UIImagePickerController()
         picker.allowsEditing = true
         picker.delegate = self
+        picker.sourceType = .photoLibrary
         present(picker, animated: true)
     }
     
