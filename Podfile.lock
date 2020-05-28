@@ -1,16 +1,25 @@
 PODS:
-  - FittedSheets (1.4.6)
+  - PixelEditor (0.2.1):
+    - PixelEngine (~> 0.2.0)
+    - TransitionPatch (~> 1.0.0)
+  - PixelEngine (0.2.1)
+  - TransitionPatch (1.0.2)
 
 DEPENDENCIES:
-  - FittedSheets
+  - PixelEditor
+  - PixelEngine
 
 SPEC REPOS:
   trunk:
-    - FittedSheets
+    - PixelEditor
+    - PixelEngine
+    - TransitionPatch
 
 SPEC CHECKSUMS:
-  FittedSheets: 7f37fee2567d15dcde391f31eccbffb660ddebf0
+  PixelEditor: 2982b2c613111b809662f8f91e29f1b0204ff1b6
+  PixelEngine: d0684b3e0d3efb348d13cea320731dedaf3f4965
+  TransitionPatch: c02b48b1429255b14ef82b7e411034e0958b9681
 
-PODFILE CHECKSUM: 8a543628ef81095a382c3b522889ff358efa2ed8
+PODFILE CHECKSUM: 2d729200994e973c71b12e43531663f5bc494448
 
 COCOAPODS: 1.9.1

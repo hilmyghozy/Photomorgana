@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0A094C4F247D61AB009E0C6E /* Explore.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A094C4E247D61AB009E0C6E /* Explore.storyboard */; };
 		0A094C53247D69EE009E0C6E /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A094C52247D69EE009E0C6E /* Profile.storyboard */; };
+		0A094C56247D72B8009E0C6E /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0A094C54247D72B8009E0C6E /* Model.xcdatamodeld */; };
 		0A0CF07C246964540033BB4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0CF07B246964540033BB4E /* AppDelegate.swift */; };
 		0A0CF07E246964540033BB4E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0CF07D246964540033BB4E /* SceneDelegate.swift */; };
 		0A0CF080246964540033BB4E /* AtelierCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0CF07F246964540033BB4E /* AtelierCollectionView.swift */; };
@@ -65,6 +66,7 @@
 /* Begin PBXFileReference section */
 		0A094C4E247D61AB009E0C6E /* Explore.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Explore.storyboard; sourceTree = "<group>"; };
 		0A094C52247D69EE009E0C6E /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		0A094C55247D72B8009E0C6E /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		0A0CF078246964540033BB4E /* Photomorgana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Photomorgana.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A0CF07B246964540033BB4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A0CF07D246964540033BB4E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 		0A0CF06F246964540033BB4E = {
 			isa = PBXGroup;
 			children = (
+				0A094C54247D72B8009E0C6E /* Model.xcdatamodeld */,
 				0A0CF07A246964540033BB4E /* Photomorgana */,
 				0A0CF093246964560033BB4E /* PhotomorganaTests */,
 				0A0CF09E246964560033BB4E /* PhotomorganaUITests */,
@@ -538,6 +541,7 @@
 				0A0CF082246964540033BB4E /* SecondViewController.swift in Sources */,
 				0A0CF080246964540033BB4E /* AtelierCollectionView.swift in Sources */,
 				0A55FC122476A01D00605CF1 /* EditViewController.swift in Sources */,
+				0A094C56247D72B8009E0C6E /* Model.xcdatamodeld in Sources */,
 				0A0CF0AE246967600033BB4E /* ThirdViewController.swift in Sources */,
 				0A0CF07C246964540033BB4E /* AppDelegate.swift in Sources */,
 				0A1236532476ECD4009F6EC1 /* BottomSheet.swift in Sources */,
@@ -874,6 +878,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0A094C54247D72B8009E0C6E /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0A094C55247D72B8009E0C6E /* Model.xcdatamodel */,
+			);
+			currentVersion = 0A094C55247D72B8009E0C6E /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 0A0CF070246964540033BB4E /* Project object */;
 }

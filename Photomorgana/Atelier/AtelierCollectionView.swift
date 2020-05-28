@@ -7,12 +7,12 @@
 //
 
 import UIKit
+import PixelEngine
+import PixelEditor
 
-
-class AtelierCollectionView: UICollectionViewController, UINavigationControllerDelegate, UIImagePickerControllerDelegate, UICollectionViewDelegateFlowLayout {
+class AtelierCollectionView: UICollectionViewController, UICollectionViewDelegateFlowLayout {
     
     var images = [UIImage]()
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,23 +31,14 @@ class AtelierCollectionView: UICollectionViewController, UINavigationControllerD
         
         return cell
     }
-    override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        if let viewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "EditViewController") as? EditViewController {
-            if let navigator = navigationController {
-                viewController.newImage = images[indexPath.row]
-                viewController.hidesBottomBarWhenPushed = true
-                navigator.pushViewController(viewController, animated: true)
-            }
-        }
-    }
     
-    
-    @objc func importPhoto(){
+    @objc func importPhoto(_ sender: Any){
         let picker = UIImagePickerController()
         picker.allowsEditing = true
         picker.delegate = self
         picker.sourceType = .photoLibrary
         present(picker, animated: true)
+        
     }
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
@@ -70,6 +61,31 @@ class AtelierCollectionView: UICollectionViewController, UINavigationControllerD
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
         return 1.0
     }
+}
 
+extension AtelierCollectionView : UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+  
+  func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
+    picker.dismiss(animated: true, completion: nil)
+  }
+    
+  override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+          
+          if let viewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "EditViewController") as? EditViewController {
+              
+              let controller = PixelEditViewController.init(
+                image : images[indexPath.row]
+              )
+  //            controller.delegate = EditViewController.self
+                navigationController?.pushViewController(controller, animated: true)
+            
+  //            if let navigator = navigationController {
+  //                viewController.newImage = images[indexPath.row]
+  //                viewController.hidesBottomBarWhenPushed = true
+  //                navigator.pushViewController(viewController, animated: true)
+  //            }
+          }
+      }
+  
 }
 

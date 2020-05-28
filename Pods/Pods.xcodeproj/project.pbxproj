@@ -7,32 +7,111 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		194A6D90E1A75C16DB90DDC8F294E307 /* Pods-Photomorgana-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E50753F0001DAF19B739DECBF5697C /* Pods-Photomorgana-dummy.m */; };
-		1B87DAD9660487FB9A81215800183124 /* SheetSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18842916F7707240AF0058AEA5716256 /* SheetSize.swift */; };
-		2E2B3BBC8A459662E9D43811D99A08F8 /* Pods-Photomorgana-PhotomorganaUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C9FFF056BCE715DEDD637765A2228E /* Pods-Photomorgana-PhotomorganaUITests-dummy.m */; };
+		0068D743B20E8902AEEAE56CF8356020 /* ShadowsControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028F4A382F53DACFD71EF269BF091EA6 /* ShadowsControl.swift */; };
+		02C3A81439926FB1A6B504FECB0EA4DC /* SharpenControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300AB53F6751FF8AA30F770D8B77508F /* SharpenControl.swift */; };
+		051463889C97F1281C0712FCF9C7A0D0 /* DrawnPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8AFC75B356102CC16726FB9D0BDF67B /* DrawnPath.swift */; };
+		0535D0E372F18903D8D5431C35026982 /* PixelEngine-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73111B471A104935887452A060F0D96D /* PixelEngine-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A52EF936E26AB4AF6478163EC2E5461 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F507165DAF3CD589807AF06B1CA0BFF /* Foundation.framework */; };
+		0E29EFC759481831978CFCA8BB56DD8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F507165DAF3CD589807AF06B1CA0BFF /* Foundation.framework */; };
+		0F2E851EC0CD2ADE058B71948CF15254 /* FilterUnsharpMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCF23B5D6688A8B60618B23DF6E9A1E /* FilterUnsharpMask.swift */; };
+		118353B3A9B45B9FA8E504E61B79EC63 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FA2B73BA252234B5A1866C2345A6E94 /* UIKit.framework */; };
+		12C215E946CED48255C008FCD0515680 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FA2B73BA252234B5A1866C2345A6E94 /* UIKit.framework */; };
+		145DB3E92D8A0C9D8377F95108CAE1A8 /* FadeControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BF65241A5A3DD9CB50EDA143CFBABC /* FadeControl.swift */; };
+		19BEC89269A2261BC2C33C3536CF29B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F507165DAF3CD589807AF06B1CA0BFF /* Foundation.framework */; };
+		1B2496C39EE33A464A7F0132DCDC9A28 /* FilterSaturation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6CBA60171E33958DCBBB58C39BCCF2 /* FilterSaturation.swift */; };
+		1C802E193CB06CFDF5079A9D155E03F8 /* CropAndStraightenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514A7CC22DF42D2907526C51B9093ACA /* CropAndStraightenView.swift */; };
+		1DF40099A1B7FD21E6904C82138F53AF /* PixelEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1E34E590A64B014A89D1269C88F35B5 /* PixelEngine.framework */; };
+		1E57E803B410EDD3C4267EF2822622BA /* FilterBrightness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61887AD7C0BB92E59C983EBD11799BE3 /* FilterBrightness.swift */; };
+		2169795251C5710BC5D5C2AA16010D16 /* FilterVignette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073D1530E690A6A53D7D450015E1DD94 /* FilterVignette.swift */; };
+		30D806BF763AC6C5E5CD884B17F9B87D /* ColorCubeStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14F9BB634A27FE9185A525C56AFED16 /* ColorCubeStorage.swift */; };
+		31091E9AE166E8EDE865A48FBBA45D46 /* ZoomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4560AEB40F0594C50E6C890867903E78 /* ZoomImageView.swift */; };
+		33CD2154E905D1E0B2B515525EF0B700 /* ImageScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C264613554CB75C2C4F7CBB73EC0D6 /* ImageScrollView.swift */; };
+		362DECF8E168046DB782C35609272C7A /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F1CCE67DA9EEC2D8FCDA65821AF7BD /* NavigationView.swift */; };
+		3B1EEB1F21231C736F1FE252094D1B11 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CCA2DFF6A41602F09D30AAB31425A19 /* CoreImage.framework */; };
+		3D2C3E955BBB5B1175D53F4F8FB66FA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F507165DAF3CD589807AF06B1CA0BFF /* Foundation.framework */; };
 		4314D281EAB5F8F595EA1A2AAAA07523 /* Pods-PhotomorganaTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A402AB76B39B26F65C8C5AD9001F46BF /* Pods-PhotomorganaTests-dummy.m */; };
+		438D00DE2698FC6DE829A928C8E85402 /* FilterFade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BC6784B7DADDBAB656F2D7116F3295 /* FilterFade.swift */; };
+		4B1D8738FF0774725F8EE1C2AAEDE2CE /* ControlViewBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEF65B778A646F1FC28C2A2E724D946 /* ControlViewBase.swift */; };
+		4FA7911D4833F595B9F5277DDB17A397 /* ImageSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB415C7B637059AAAA9930AD4BF5377 /* ImageSource.swift */; };
+		506830FCC03024DD794DF9242D2AFB6B /* GaussianBlurControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2C32BD5641CEC2FB43C52E3C5ED846 /* GaussianBlurControl.swift */; };
+		5201E6044F81904964A9DBF1D20C921F /* FilterHighlightShadowTint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98928116935D28797C996595DCF70425 /* FilterHighlightShadowTint.swift */; };
+		54936A1598AA47A5B684AA819EC8541C /* ColorCubeControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B3227060AADB643079A0CB7F6129A1 /* ColorCubeControlView.swift */; };
+		56BDC2D8FE199BC47F977347CCC8E0A2 /* EditMenuControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D08DEDA3C2DDB8578B28BFDA522EDFF /* EditMenuControlView.swift */; };
+		5B1E813D004425F540916DC283FECC78 /* Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF985E18AFA0E65B10F072C3FD9F5ED /* Geometry.swift */; };
+		5C806E4075C46DA931AEC2C8B5DE6192 /* Pods-Photomorgana-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E50753F0001DAF19B739DECBF5697C /* Pods-Photomorgana-dummy.m */; };
+		5DA7A69A608E3899B184E06FDE402157 /* FilterGaussianBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1ADBEFF202878449A55370E7FD52BC /* FilterGaussianBlur.swift */; };
+		5E1FB4C0A464BDE124D476D9286490B5 /* FilterTemperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147971E93C1CFCBE0F82EE870DD8DE0F /* FilterTemperature.swift */; };
+		63F383F23A12E3CF2FF7AD04888E6A82 /* EditorLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4B402B1F696429228733CAC0376B53 /* EditorLog.swift */; };
+		66B474823D72E70A58AD772FCBDF2851 /* EngineLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9149234C1F5612E9E291B4C79DB6ED29 /* EngineLog.swift */; };
+		679D9FCDEFF736D159FFA9D82C813616 /* AdjustmentControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6C610A19DAD022F6C2A80422A43E91 /* AdjustmentControlView.swift */; };
+		681E724730617F0FAAB4ADEDD483662D /* TransitionPatch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F81F02401B6CEA88AEB05834786B9B /* TransitionPatch-dummy.m */; };
+		68FF5478DCCD707956889E23A563B795 /* Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE2598522D7B3BB90B9EEAFD40A4CA1 /* Source.swift */; };
+		6C5CD44C2B599A9225CB7DE2BD9ECFB6 /* FilterColorCube.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A3DFDC635C8DD2B27E61F75163FEF8 /* FilterColorCube.swift */; };
+		6CA9357D3F18ADE6F9251D73F63ED136 /* PixelEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323F07AC80CE36E9C599F3F12B17A844 /* PixelEditViewController.swift */; };
+		6D9FF8DF2338EDE5ADA3A7CB65F2AA01 /* SaturationControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950A6D02455E6525E972819F60A34D8C /* SaturationControl.swift */; };
+		6DADE0414B68D699EF704CFF80C56A41 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DA5F82BE401B0BFB38A1859173A2DA0 /* Media.xcassets */; };
+		6FED1D503DED4FFC0F842487F889062B /* FilterExposure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9665C276D5932463CC725EA2A87E7BE3 /* FilterExposure.swift */; };
+		73C83C73F419CB9A8994FDEBAC2F76C0 /* ColorCube.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA41493A8AEEE02695E8C039586EC12F /* ColorCube.swift */; };
+		74167B7C3667E169ED37EC9C65346554 /* TemperatureControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD11AB8F59C723727A8EBFE023415CAB /* TemperatureControl.swift */; };
+		742B60B1668C0BA02D82F8FBBF88E34E /* L10n.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4410E088B9CCAA52A8033D7B086271D8 /* L10n.swift */; };
+		757F3D5101647E4095C05BB40C62AECD /* FilterShadows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8B697EFF6CEBBEEA63E10E9B22BD19 /* FilterShadows.swift */; };
+		769EA073507218F7D46D38DF020A2D6F /* Pods-Photomorgana-PhotomorganaUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC2020836B65B20243AB24C3676E7834 /* Pods-Photomorgana-PhotomorganaUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76FB4B023726E7E965409D96BF864506 /* StepSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DE0902379A0C5E2F51127C14F4BC89 /* StepSlider.swift */; };
 		7CD8AA2B7915D5078C92B34E372F0A05 /* Pods-PhotomorganaTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 948CF6507FECF63A6899E6192C258C30 /* Pods-PhotomorganaTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8806921DD4A51C4C41C9B154519A082B /* InitialTouchPanGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1804FA1FEABA9C765327DEC5FA09C7 /* InitialTouchPanGestureRecognizer.swift */; };
-		8C91E1421BA7BE9A02E902B5AB8F6484 /* SheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7CA2D6A476BDD8C6BD76C99899F7B6 /* SheetViewController.swift */; };
-		96F73A745FD2532410C8DFC5C036BACD /* FittedSheets-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7277FB2D75A5BBD1F288BFA886A8F0B /* FittedSheets-dummy.m */; };
-		98384C568957069DCE64178FC5151FE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		A63D6FB35A6741CA32A99EB8338CB093 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		AD0139470314388D7CFCD578D8A9D27E /* Pods-Photomorgana-PhotomorganaUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC2020836B65B20243AB24C3676E7834 /* Pods-Photomorgana-PhotomorganaUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B02EE2F09A5DA3B1AB3E2D59B1D15ED9 /* FittedSheets-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 759328C6234C9D6D3A42058ADD0A0898 /* FittedSheets-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B1B913EDBD95A2C27F055D19EFB20169 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E96BEA33AC4B3C4AEEDED088265ED0 /* UIViewControllerExtension.swift */; };
-		B8629D57D7F0E60F872E17B579F8B3C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		C2D3D17EE85E87BA4985ED57176445D7 /* Pods-Photomorgana-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D8BE8415850C1B0818BB035D48ADBC2D /* Pods-Photomorgana-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EC1143DAD5ED88572995113DD1D255C6 /* Yalta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D9B5F4A017B7D2AAF0F129FCF5AF4B /* Yalta.swift */; };
-		FBD8BEB22BFB8CBBC5E2913FE2DAE378 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		83DD1409BD2000C8106CE7F4EA0276F5 /* MaskControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAB9EA549331DE133C049181171E117 /* MaskControlView.swift */; };
+		849B89845683795DBD077AFA240A1235 /* ImageRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59FA4FEBB5DDFD5A031CF62EAD2BCA8 /* ImageRenderer.swift */; };
+		88ABEE2776D6B9BFE888C11D595EBAA5 /* OvalBrush.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E4EE37BB05ED7FD4B33F93AB4F5184 /* OvalBrush.swift */; };
+		8B3423CC1EA604935230AE588E64FE27 /* FilterControlBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A4E9F30D31BA352123F29D1332AE1F /* FilterControlBase.swift */; };
+		8BDA73B50D528DF0CB90AF4030BB45D5 /* ExposureControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A943EDDA313F4B7A44D27BC3F0A76AE /* ExposureControl.swift */; };
+		8FCA096B34C7B27DC4838B9B8C986372 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC18F164CED8E6BA9815C4D87F438B1E /* Style.swift */; };
+		901AF36D13992091D26DFC93BF86A461 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F507165DAF3CD589807AF06B1CA0BFF /* Foundation.framework */; };
+		916262F53A75FCD2E3344985B4CA8B17 /* FilterContrast.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E17FABC68A692FE26A0F8412DF25DA /* FilterContrast.swift */; };
+		9294355CFB276422A4497DF62EF6E600 /* Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE72FA4765C9DD0B1C2C6F28E0DFF940 /* Layer.swift */; };
+		947742F607093CAC42658D2535DA197C /* HighlightsControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB96871C3858621579830DF3E4DA21F /* HighlightsControl.swift */; };
+		9702FC80347CCACEDFEF701BD3DB7562 /* GraphicDrawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E196D5E7BE68E75EE88548AC7B16AB /* GraphicDrawing.swift */; };
+		99127F049717269111A61B3782C912B9 /* PixelEngine-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4B50D9D2F364194986B1E46789A9E4 /* PixelEngine-dummy.m */; };
+		9A88F6722AA3A0696AB54049C6445DEC /* RootControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FF5F8BD8D8E7F35F985D671F982411 /* RootControlView.swift */; };
+		A084DA479E3B771F4A783C3A7CBE6FAE /* TempCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7631A7AA41089589FE654EBBA9FC0374 /* TempCode.swift */; };
+		A19369CAFDEB030500A7E6309E57EE32 /* InternalUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8C40E2D3B95F28D795CC83E0B96956 /* InternalUtils.swift */; };
+		A19DCC92CD9B88E52038CB34D3235763 /* VignetteControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D373A00393EA7A3D83D1D67B51B75CC /* VignetteControl.swift */; };
+		A6E5A0F9CA4B991162FF515FCC0C1AD1 /* MetalImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC0FC01325308BF0073EFFDB94DF496 /* MetalImageView.swift */; };
+		A71177C48FF81FD1B23FF9EC3FB88649 /* PixelEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8726D8B39C391E4A51AA9D9F6CC1B58F /* PixelEngine.swift */; };
+		A8A8FAFC818370A7255240F0A11A91D4 /* ImageTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3295C254E3962EA4628CC55F1EC17330 /* ImageTool.swift */; };
+		AB3481A0D4E6E01C2B425B1CD9EC3C47 /* FilterHighlights.swift in Sources */ = {isa = PBXBuildFile; fileRef = C590800DE35BA8A533C1167B756CCC5E /* FilterHighlights.swift */; };
+		AB71394D6EB78C503133E86AF2AC5F83 /* ContrastControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F29073F6347676B4D410CE5BB98C11D /* ContrastControl.swift */; };
+		B0BBB38C0BC35177C5DA1B6E378E4C86 /* TransitionPatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3197AFB033AD7C39CC9E38329DD8C51F /* TransitionPatch.framework */; };
+		B277529BB6E35BEB94F2835C03D8782F /* Pods-Photomorgana-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D8BE8415850C1B0818BB035D48ADBC2D /* Pods-Photomorgana-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B396620390B8F654ECFF0C5228615305 /* Pods-Photomorgana-PhotomorganaUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C9FFF056BCE715DEDD637765A2228E /* Pods-Photomorgana-PhotomorganaUITests-dummy.m */; };
+		B3AF1646231E85AFF5C2C17D872FCF4C /* DrawnPathInRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136131742B159022342C8CD304AE4960 /* DrawnPathInRect.swift */; };
+		BF3D1E14B2FDDFD2B625B24E00275D23 /* ImagePreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5E9D2D7A04362CAED3EF171130D51B /* ImagePreviewView.swift */; };
+		C09E88FEB8F63ED329B46227149C29FA /* Filtering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23898550958CB8C0EEF2CF9F24481D15 /* Filtering.swift */; };
+		C6AB513BD3E5BEB1F9E0E7AD38DE4242 /* PixelEditor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB725600292502E8FD08DE9F2E8265FC /* PixelEditor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8F913505B8D4649D7B53D9FF0572F5E /* PixelEditor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F5C7D459A670C21DE13352A5761A29 /* PixelEditor-dummy.m */; };
+		C942867050B9AE2914FEAB70F240D4F9 /* ControlStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8889A694088BDFF3DDBD56E684D924 /* ControlStackView.swift */; };
+		CD679DC2B94D427D9484FC240EBAAF65 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CCA2DFF6A41602F09D30AAB31425A19 /* CoreImage.framework */; };
+		D05BC49F0CC4886E61E620717B043B8A /* ClarityControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A6ECDED9478FD3CC57EC8270621350 /* ClarityControl.swift */; };
+		D166C84B2141A45AF0CA69EDB623874F /* EditingStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B4B602BC0B1D46D06F163736C5AFA7 /* EditingStack.swift */; };
+		D6D813092A8EBD1532FBC2D481E9214D /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCFF8F112AF1DAAABD5973055DA8433 /* Options.swift */; };
+		D7D66DF093F3E9104F0EF0433CA2BA19 /* PixelEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D1F3C6E8CD67D95189832AB1CDAD1B /* PixelEditor.swift */; };
+		E9D0BDBF060FF4FB35F2F1CFF677E031 /* BlurredMosaicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCACE341E67BD591F0EA1CCBA200B906 /* BlurredMosaicView.swift */; };
+		EB9227D5D0CA5D299EEEBA3E71BA3CE3 /* TransitionPatch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8D4ACF9F3109BC4B3C4E1F9CB117EA /* TransitionPatch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBBE31A2A34730DC5BD264A36A13EFE6 /* DryDrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A0851DF433D94BE4CD2C2DC2480473 /* DryDrawingView.swift */; };
+		EC124F3A1EF8C85740482009940D241B /* GLImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BE6608C11C967C4432A577823D9BAF /* GLImageView.swift */; };
+		EFD824B87D0EAE2C2C77A058AAA1F204 /* ParameterRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACF923443F5EDC4F1414C24D68CDCE7 /* ParameterRange.swift */; };
+		EFDE056835EC9AA190E15E55B7EF0CFA /* FilterSharpen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14559D90D699CDF808CADAA8B577C2DB /* FilterSharpen.swift */; };
+		F12D80D00F3EFC98CDBDA93E28280982 /* BlurredMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE3DCDF8FD83C790F91105CCE0CE189 /* BlurredMask.swift */; };
+		F6145725FC577BA8217205AD8FA34CA8 /* HardwareImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDBF244BB6757D9BA4493439AC8B550 /* HardwareImageView.swift */; };
+		F66F6306549F960446D36C80EC678CC8 /* DoodleControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CE96BE8DF1D4E3D6A00C78D7CB57FC /* DoodleControlView.swift */; };
+		FBD8BEB22BFB8CBBC5E2913FE2DAE378 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F507165DAF3CD589807AF06B1CA0BFF /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0CEDE0FBF2C43B410329D51529F82451 /* PBXContainerItemProxy */ = {
+		0B4A4A9138BE9B4D9146D144E2F81455 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B71C614CBF9B1B690FE941C4DF44D040;
-			remoteInfo = FittedSheets;
+			remoteGlobalIDString = D1E36550BDE17566842169E12CC5B24B;
+			remoteInfo = PixelEditor;
 		};
 		0E90F935E6F946C358466CBD470F77F5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -41,58 +120,187 @@
 			remoteGlobalIDString = 4265C6D303F49B3723A8B93621385F98;
 			remoteInfo = "Pods-Photomorgana";
 		};
-		385F6135BD352FB98E8076B713CA181D /* PBXContainerItemProxy */ = {
+		17BD4428B8463034BF89B4AB3A5E0443 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B71C614CBF9B1B690FE941C4DF44D040;
-			remoteInfo = FittedSheets;
+			remoteGlobalIDString = 0ED58E1991F8EA474C2BD66693D279FD;
+			remoteInfo = PixelEngine;
+		};
+		24E8700DF05D30C50F6675577588D2A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0ED58E1991F8EA474C2BD66693D279FD;
+			remoteInfo = PixelEngine;
+		};
+		338A77AD259833ADA6540EF1F1DC5CEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A9A58D570F0F84EC44791799CC961D2;
+			remoteInfo = TransitionPatch;
+		};
+		48FB43D6506610A2FFA78881151AC630 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1E36550BDE17566842169E12CC5B24B;
+			remoteInfo = PixelEditor;
+		};
+		A929234FB21F01DCCD1AAC36B2A6C4FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0ED58E1991F8EA474C2BD66693D279FD;
+			remoteInfo = PixelEngine;
+		};
+		ADEE10A4358452C9F9D93A02E829008C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A9A58D570F0F84EC44791799CC961D2;
+			remoteInfo = TransitionPatch;
+		};
+		DEC7CE5053211236C12CE5E2FBFD416D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A9A58D570F0F84EC44791799CC961D2;
+			remoteInfo = TransitionPatch;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		020E7EFA6415A3FD6AC6AD0EA74B4EC2 /* Pods-Photomorgana.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Photomorgana.release.xcconfig"; sourceTree = "<group>"; };
-		05E96BEA33AC4B3C4AEEDED088265ED0 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewControllerExtension.swift; path = FittedSheetsPod/UIViewControllerExtension.swift; sourceTree = "<group>"; };
-		0EC661B138B1768BF9D8E4A0CA8DD105 /* FittedSheets.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FittedSheets.debug.xcconfig; sourceTree = "<group>"; };
-		11D9B5F4A017B7D2AAF0F129FCF5AF4B /* Yalta.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Yalta.swift; path = FittedSheetsPod/Yalta.swift; sourceTree = "<group>"; };
+		028F4A382F53DACFD71EF269BF091EA6 /* ShadowsControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShadowsControl.swift; path = Sources/PixelEditor/Components/Controls/FilterControl/ShadowsControl.swift; sourceTree = "<group>"; };
+		04BE6608C11C967C4432A577823D9BAF /* GLImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GLImageView.swift; path = Sources/PixelEngine/ImageView/GLImageView.swift; sourceTree = "<group>"; };
+		073D1530E690A6A53D7D450015E1DD94 /* FilterVignette.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FilterVignette.swift; path = Sources/PixelEngine/Filter/FilterVignette.swift; sourceTree = "<group>"; };
+		0FA2B73BA252234B5A1866C2345A6E94 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		1251FE7DE2786BFAC8F6DAB0AE62F0F0 /* Pods-Photomorgana-PhotomorganaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Photomorgana-PhotomorganaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		136131742B159022342C8CD304AE4960 /* DrawnPathInRect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DrawnPathInRect.swift; path = Sources/PixelEngine/DrawnPathInRect.swift; sourceTree = "<group>"; };
+		14559D90D699CDF808CADAA8B577C2DB /* FilterSharpen.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FilterSharpen.swift; path = Sources/PixelEngine/Filter/FilterSharpen.swift; sourceTree = "<group>"; };
+		147971E93C1CFCBE0F82EE870DD8DE0F /* FilterTemperature.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FilterTemperature.swift; path = Sources/PixelEngine/Filter/FilterTemperature.swift; sourceTree = "<group>"; };
 		161BDF69916B2D127C3925952F622518 /* Pods_Photomorgana_PhotomorganaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Photomorgana_PhotomorganaUITests.framework; path = "Pods-Photomorgana-PhotomorganaUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		18842916F7707240AF0058AEA5716256 /* SheetSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SheetSize.swift; path = FittedSheetsPod/SheetSize.swift; sourceTree = "<group>"; };
-		21AAE79511133937606E376EE52BED4F /* FittedSheets.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FittedSheets.framework; path = FittedSheets.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		1DA5F82BE401B0BFB38A1859173A2DA0 /* Media.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = Sources/PixelEditor/Media.xcassets; sourceTree = "<group>"; };
+		1F29073F6347676B4D410CE5BB98C11D /* ContrastControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContrastControl.swift; path = Sources/PixelEditor/Components/Controls/FilterControl/ContrastControl.swift; sourceTree = "<group>"; };
+		1FE3DCDF8FD83C790F91105CCE0CE189 /* BlurredMask.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlurredMask.swift; path = Sources/PixelEngine/BlurredMask.swift; sourceTree = "<group>"; };
+		23898550958CB8C0EEF2CF9F24481D15 /* Filtering.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filtering.swift; path = Sources/PixelEngine/Filtering.swift; sourceTree = "<group>"; };
+		27DE0902379A0C5E2F51127C14F4BC89 /* StepSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StepSlider.swift; path = Sources/PixelEditor/Components/StepSlider.swift; sourceTree = "<group>"; };
+		2D373A00393EA7A3D83D1D67B51B75CC /* VignetteControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VignetteControl.swift; path = Sources/PixelEditor/Components/Controls/FilterControl/VignetteControl.swift; sourceTree = "<group>"; };
+		2F4B50D9D2F364194986B1E46789A9E4 /* PixelEngine-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PixelEngine-dummy.m"; sourceTree = "<group>"; };
+		300AB53F6751FF8AA30F770D8B77508F /* SharpenControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SharpenControl.swift; path = Sources/PixelEditor/Components/Controls/FilterControl/SharpenControl.swift; sourceTree = "<group>"; };
+		3197AFB033AD7C39CC9E38329DD8C51F /* TransitionPatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TransitionPatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		323F07AC80CE36E9C599F3F12B17A844 /* PixelEditViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PixelEditViewController.swift; path = Sources/PixelEditor/PixelEditViewController.swift; sourceTree = "<group>"; };
+		3295C254E3962EA4628CC55F1EC17330 /* ImageTool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageTool.swift; path = Sources/PixelEngine/Engine/ImageTool.swift; sourceTree = "<group>"; };
 		32B2D625D0C571FC63646DEAA064E030 /* Pods-Photomorgana-PhotomorganaUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Photomorgana-PhotomorganaUITests-Info.plist"; sourceTree = "<group>"; };
 		32FE1E17F520F11F9B9D4F891781211E /* Pods-PhotomorganaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhotomorganaTests.release.xcconfig"; sourceTree = "<group>"; };
+		33A6ECDED9478FD3CC57EC8270621350 /* ClarityControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ClarityControl.swift; path = Sources/PixelEditor/Components/Controls/FilterControl/ClarityControl.swift; sourceTree = "<group>"; };
+		35810BF0E398228B15F849D0F5C9B909 /* TransitionPatch-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TransitionPatch-Info.plist"; sourceTree = "<group>"; };
 		36E50753F0001DAF19B739DECBF5697C /* Pods-Photomorgana-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Photomorgana-dummy.m"; sourceTree = "<group>"; };
+		372E7C1BB0D06C3EF30FED7F28DBB3ED /* PixelEditor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PixelEditor-Info.plist"; sourceTree = "<group>"; };
+		37C9F15D926FB13089CA2B41C298D5A5 /* PixelEngine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PixelEngine.debug.xcconfig; sourceTree = "<group>"; };
+		38B3227060AADB643079A0CB7F6129A1 /* ColorCubeControlView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorCubeControlView.swift; path = Sources/PixelEditor/Components/Controls/ColorCubeControlView.swift; sourceTree = "<group>"; };
 		3D1260BA173BAF8F4FE269CB9F473123 /* Pods-Photomorgana.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Photomorgana.debug.xcconfig"; sourceTree = "<group>"; };
-		4F1804FA1FEABA9C765327DEC5FA09C7 /* InitialTouchPanGestureRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InitialTouchPanGestureRecognizer.swift; path = FittedSheetsPod/InitialTouchPanGestureRecognizer.swift; sourceTree = "<group>"; };
+		3DCF23B5D6688A8B60618B23DF6E9A1E /* FilterUnsharpMask.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FilterUnsharpMask.swift; path = Sources/PixelEngine/Filter/FilterUnsharpMask.swift; sourceTree = "<group>"; };
+		3F507165DAF3CD589807AF06B1CA0BFF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		41A3DFDC635C8DD2B27E61F75163FEF8 /* FilterColorCube.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FilterColorCube.swift; path = Sources/PixelEngine/Filter/FilterColorCube.swift; sourceTree = "<group>"; };
+		42BF65241A5A3DD9CB50EDA143CFBABC /* FadeControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FadeControl.swift; path = Sources/PixelEditor/Components/Controls/FilterControl/FadeControl.swift; sourceTree = "<group>"; };
+		4410E088B9CCAA52A8033D7B086271D8 /* L10n.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = L10n.swift; path = Sources/PixelEditor/L10n.swift; sourceTree = "<group>"; };
+		442C08A599F7ABCF0A87D37907C91B5D /* PixelEngine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PixelEngine.release.xcconfig; sourceTree = "<group>"; };
+		4560AEB40F0594C50E6C890867903E78 /* ZoomImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZoomImageView.swift; path = Sources/PixelEditor/Components/ZoomImageView.swift; sourceTree = "<group>"; };
+		4A8B697EFF6CEBBEEA63E10E9B22BD19 /* FilterShadows.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FilterShadows.swift; path = Sources/PixelEngine/Filter/FilterShadows.swift; sourceTree = "<group>"; };
+		4BB96871C3858621579830DF3E4DA21F /* HighlightsControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HighlightsControl.swift; path = Sources/PixelEditor/Components/Controls/FilterControl/HighlightsControl.swift; sourceTree = "<group>"; };
+		4C1ADBEFF202878449A55370E7FD52BC /* FilterGaussianBlur.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FilterGaussianBlur.swift; path = Sources/PixelEngine/Filter/FilterGaussianBlur.swift; sourceTree = "<group>"; };
+		4F6C610A19DAD022F6C2A80422A43E91 /* AdjustmentControlView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AdjustmentControlView.swift; path = Sources/PixelEditor/Components/Controls/AdjustmentControlView.swift; sourceTree = "<group>"; };
+		514A7CC22DF42D2907526C51B9093ACA /* CropAndStraightenView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropAndStraightenView.swift; path = Sources/PixelEditor/ImageViews/CropAndStraightenView.swift; sourceTree = "<group>"; };
+		51F5923023381B7EAD59879CE4D7E445 /* TransitionPatch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TransitionPatch.modulemap; sourceTree = "<group>"; };
+		55BC6784B7DADDBAB656F2D7116F3295 /* FilterFade.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FilterFade.swift; path = Sources/PixelEngine/Filter/FilterFade.swift; sourceTree = "<group>"; };
 		576638487C34584658C2A4843C51F5EE /* Pods_Photomorgana.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Photomorgana.framework; path = "Pods-Photomorgana.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59D1F3C6E8CD67D95189832AB1CDAD1B /* PixelEditor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PixelEditor.swift; path = Sources/PixelEditor/PixelEditor.swift; sourceTree = "<group>"; };
+		5BE97CC7964F4DF06BBF5069F0D86FFC /* TransitionPatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TransitionPatch.debug.xcconfig; sourceTree = "<group>"; };
+		5CCA2DFF6A41602F09D30AAB31425A19 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreImage.framework; sourceTree = DEVELOPER_DIR; };
 		5CDCCD15CFFDA0CBF95624A9EB9EE7F8 /* Pods-Photomorgana-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Photomorgana-acknowledgements.markdown"; sourceTree = "<group>"; };
+		61887AD7C0BB92E59C983EBD11799BE3 /* FilterBrightness.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FilterBrightness.swift; path = Sources/PixelEngine/Filter/FilterBrightness.swift; sourceTree = "<group>"; };
+		61E196D5E7BE68E75EE88548AC7B16AB /* GraphicDrawing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GraphicDrawing.swift; path = Sources/PixelEngine/GraphicDrawing.swift; sourceTree = "<group>"; };
+		6D08DEDA3C2DDB8578B28BFDA522EDFF /* EditMenuControlView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EditMenuControlView.swift; path = Sources/PixelEditor/Components/Controls/EditMenuControlView.swift; sourceTree = "<group>"; };
+		6DC7DEA16C1454419E1ACF9B0F51AAA3 /* TransitionPatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TransitionPatch.framework; path = TransitionPatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71CB0EDF8D9717754BDF2883F32E3BD1 /* Pods-Photomorgana-PhotomorganaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Photomorgana-PhotomorganaUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		759328C6234C9D6D3A42058ADD0A0898 /* FittedSheets-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FittedSheets-umbrella.h"; sourceTree = "<group>"; };
+		73111B471A104935887452A060F0D96D /* PixelEngine-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PixelEngine-umbrella.h"; sourceTree = "<group>"; };
+		7631A7AA41089589FE654EBBA9FC0374 /* TempCode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TempCode.swift; path = Sources/PixelEditor/Components/Controls/FilterControl/TempCode.swift; sourceTree = "<group>"; };
+		7A8889A694088BDFF3DDBD56E684D924 /* ControlStackView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ControlStackView.swift; path = Sources/PixelEditor/Components/Controls/ControlStackView.swift; sourceTree = "<group>"; };
+		7A943EDDA313F4B7A44D27BC3F0A76AE /* ExposureControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExposureControl.swift; path = Sources/PixelEditor/Components/Controls/FilterControl/ExposureControl.swift; sourceTree = "<group>"; };
+		7FB415C7B637059AAAA9930AD4BF5377 /* ImageSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageSource.swift; path = Sources/PixelEngine/ImageSource.swift; sourceTree = "<group>"; };
+		80B4B602BC0B1D46D06F163736C5AFA7 /* EditingStack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EditingStack.swift; path = Sources/PixelEngine/EditingStack.swift; sourceTree = "<group>"; };
+		85A0851DF433D94BE4CD2C2DC2480473 /* DryDrawingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DryDrawingView.swift; path = Sources/PixelEditor/Components/DryDrawingView.swift; sourceTree = "<group>"; };
+		8726D8B39C391E4A51AA9D9F6CC1B58F /* PixelEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PixelEngine.swift; path = Sources/PixelEngine/PixelEngine.swift; sourceTree = "<group>"; };
+		88F5C7D459A670C21DE13352A5761A29 /* PixelEditor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PixelEditor-dummy.m"; sourceTree = "<group>"; };
+		8B4B402B1F696429228733CAC0376B53 /* EditorLog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EditorLog.swift; path = Sources/PixelEditor/Utils/EditorLog.swift; sourceTree = "<group>"; };
+		8BAB9EA549331DE133C049181171E117 /* MaskControlView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaskControlView.swift; path = Sources/PixelEditor/Components/Controls/MaskControlView.swift; sourceTree = "<group>"; };
+		8DCFF8F112AF1DAAABD5973055DA8433 /* Options.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Options.swift; path = Sources/PixelEditor/Options.swift; sourceTree = "<group>"; };
 		8E7354ABA8337712165A84580FF6D24A /* Pods-PhotomorganaTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PhotomorganaTests-Info.plist"; sourceTree = "<group>"; };
+		90A9914B0BB4A5C211B9DE3A232FFA79 /* PixelEditor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PixelEditor.framework; path = PixelEditor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90B55ECFE4408361AED66B631519544E /* TransitionPatch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TransitionPatch-prefix.pch"; sourceTree = "<group>"; };
+		9149234C1F5612E9E291B4C79DB6ED29 /* EngineLog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EngineLog.swift; path = Sources/PixelEngine/EngineLog.swift; sourceTree = "<group>"; };
+		93A4E9F30D31BA352123F29D1332AE1F /* FilterControlBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FilterControlBase.swift; path = Sources/PixelEditor/Components/Controls/FilterControl/FilterControlBase.swift; sourceTree = "<group>"; };
 		948CF6507FECF63A6899E6192C258C30 /* Pods-PhotomorganaTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PhotomorganaTests-umbrella.h"; sourceTree = "<group>"; };
+		950A6D02455E6525E972819F60A34D8C /* SaturationControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SaturationControl.swift; path = Sources/PixelEditor/Components/Controls/FilterControl/SaturationControl.swift; sourceTree = "<group>"; };
+		9665C276D5932463CC725EA2A87E7BE3 /* FilterExposure.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FilterExposure.swift; path = Sources/PixelEngine/Filter/FilterExposure.swift; sourceTree = "<group>"; };
+		98928116935D28797C996595DCF70425 /* FilterHighlightShadowTint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FilterHighlightShadowTint.swift; path = Sources/PixelEngine/Filter/FilterHighlightShadowTint.swift; sourceTree = "<group>"; };
+		99F81F02401B6CEA88AEB05834786B9B /* TransitionPatch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TransitionPatch-dummy.m"; sourceTree = "<group>"; };
+		9BC0FC01325308BF0073EFFDB94DF496 /* MetalImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MetalImageView.swift; path = Sources/PixelEngine/ImageView/MetalImageView.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DFDE32431A01324C85E3BA049BF3DB2 /* PixelEngine-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PixelEngine-prefix.pch"; sourceTree = "<group>"; };
 		9E9BA191633C490141ABAC284FCAE2CE /* Pods_PhotomorganaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PhotomorganaTests.framework; path = "Pods-PhotomorganaTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A402AB76B39B26F65C8C5AD9001F46BF /* Pods-PhotomorganaTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PhotomorganaTests-dummy.m"; sourceTree = "<group>"; };
+		A4E17FABC68A692FE26A0F8412DF25DA /* FilterContrast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FilterContrast.swift; path = Sources/PixelEngine/Filter/FilterContrast.swift; sourceTree = "<group>"; };
+		A682B90DB60C71BEA1A1334757EE7338 /* PixelEngine-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PixelEngine-Info.plist"; sourceTree = "<group>"; };
+		AC5E9D2D7A04362CAED3EF171130D51B /* ImagePreviewView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImagePreviewView.swift; path = Sources/PixelEditor/ImageViews/ImagePreviewView.swift; sourceTree = "<group>"; };
 		B2C9FFF056BCE715DEDD637765A2228E /* Pods-Photomorgana-PhotomorganaUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Photomorgana-PhotomorganaUITests-dummy.m"; sourceTree = "<group>"; };
+		B3679280F401542F93906D7C54C39D4A /* PixelEditor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PixelEditor-prefix.pch"; sourceTree = "<group>"; };
 		B506FD94D551A6F6CC0628F0A5C5659B /* Pods-Photomorgana-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Photomorgana-acknowledgements.plist"; sourceTree = "<group>"; };
+		BA8C40E2D3B95F28D795CC83E0B96956 /* InternalUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InternalUtils.swift; path = Sources/PixelEngine/InternalUtils.swift; sourceTree = "<group>"; };
+		BBF985E18AFA0E65B10F072C3FD9F5ED /* Geometry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Geometry.swift; path = Sources/PixelEngine/Geometry.swift; sourceTree = "<group>"; };
+		BC7974986E9AB372F8CC344D257241BA /* TransitionPatch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TransitionPatch.release.xcconfig; sourceTree = "<group>"; };
+		BCACE341E67BD591F0EA1CCBA200B906 /* BlurredMosaicView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlurredMosaicView.swift; path = Sources/PixelEditor/ImageViews/BlurredMosaicView.swift; sourceTree = "<group>"; };
 		BD377426C253DD16661BF074316BBF4D /* Pods-Photomorgana-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Photomorgana-Info.plist"; sourceTree = "<group>"; };
-		BE7CA2D6A476BDD8C6BD76C99899F7B6 /* SheetViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SheetViewController.swift; path = FittedSheetsPod/SheetViewController.swift; sourceTree = "<group>"; };
+		BF2C32BD5641CEC2FB43C52E3C5ED846 /* GaussianBlurControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GaussianBlurControl.swift; path = Sources/PixelEditor/Components/Controls/FilterControl/GaussianBlurControl.swift; sourceTree = "<group>"; };
+		C071535A417EDB253D2462DA97E40CC2 /* PixelEngine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PixelEngine.framework; path = PixelEngine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2688ABB6D608585184A50F1B4EF5990 /* PixelEditor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PixelEditor.modulemap; sourceTree = "<group>"; };
 		C3D9523970747C9DCBDA77EC5170EAF6 /* Pods-PhotomorganaTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PhotomorganaTests.modulemap"; sourceTree = "<group>"; };
 		C426DD8767D4FCE74DA374DE3DAC211A /* Pods-PhotomorganaTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PhotomorganaTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C4FF5F8BD8D8E7F35F985D671F982411 /* RootControlView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RootControlView.swift; path = Sources/PixelEditor/Components/Controls/RootControlView.swift; sourceTree = "<group>"; };
 		C57640C5A478EBF0156821E5739B1409 /* Pods-Photomorgana-PhotomorganaUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Photomorgana-PhotomorganaUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C590800DE35BA8A533C1167B756CCC5E /* FilterHighlights.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FilterHighlights.swift; path = Sources/PixelEngine/Filter/FilterHighlights.swift; sourceTree = "<group>"; };
+		C59FA4FEBB5DDFD5A031CF62EAD2BCA8 /* ImageRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageRenderer.swift; path = Sources/PixelEngine/Engine/ImageRenderer.swift; sourceTree = "<group>"; };
+		C8AFC75B356102CC16726FB9D0BDF67B /* DrawnPath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DrawnPath.swift; path = Sources/PixelEngine/DrawnPath.swift; sourceTree = "<group>"; };
+		C9C264613554CB75C2C4F7CBB73EC0D6 /* ImageScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageScrollView.swift; path = Sources/PixelEditor/Components/ImageScrollView.swift; sourceTree = "<group>"; };
 		CA9E4FBB8FF61F90A654B0C509EFCD7A /* Pods-Photomorgana-PhotomorganaUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Photomorgana-PhotomorganaUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		CAABD858528B2FF452C3C5121B4557AF /* FittedSheets-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FittedSheets-prefix.pch"; sourceTree = "<group>"; };
+		CAC424D44B80B479E97FE8DFFEBF2E27 /* PixelEngine.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PixelEngine.modulemap; sourceTree = "<group>"; };
+		CBEF65B778A646F1FC28C2A2E724D946 /* ControlViewBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ControlViewBase.swift; path = Sources/PixelEditor/Components/Controls/ControlViewBase.swift; sourceTree = "<group>"; };
+		CD11AB8F59C723727A8EBFE023415CAB /* TemperatureControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TemperatureControl.swift; path = Sources/PixelEditor/Components/Controls/FilterControl/TemperatureControl.swift; sourceTree = "<group>"; };
 		CDDB955C85A0E7583CFD6F2367861EBD /* Pods-Photomorgana-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Photomorgana-frameworks.sh"; sourceTree = "<group>"; };
+		CFE2598522D7B3BB90B9EEAFD40A4CA1 /* Source.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Source.swift; path = TransitionPatch/Source.swift; sourceTree = "<group>"; };
+		D1E34E590A64B014A89D1269C88F35B5 /* PixelEngine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PixelEngine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8BE8415850C1B0818BB035D48ADBC2D /* Pods-Photomorgana-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Photomorgana-umbrella.h"; sourceTree = "<group>"; };
-		DF58A4C6072A340F3C369A7A8BDB43B0 /* FittedSheets-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FittedSheets-Info.plist"; sourceTree = "<group>"; };
+		D9E4EE37BB05ED7FD4B33F93AB4F5184 /* OvalBrush.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OvalBrush.swift; path = Sources/PixelEngine/OvalBrush.swift; sourceTree = "<group>"; };
+		DA425B567D8E3AAF75A22E964B9ACD9D /* PixelEditor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PixelEditor.debug.xcconfig; sourceTree = "<group>"; };
+		DC6CBA60171E33958DCBBB58C39BCCF2 /* FilterSaturation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FilterSaturation.swift; path = Sources/PixelEngine/Filter/FilterSaturation.swift; sourceTree = "<group>"; };
+		DD75407A08642E107EC1A18B5E59D9A7 /* PixelEditor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PixelEditor.release.xcconfig; sourceTree = "<group>"; };
+		DD8D4ACF9F3109BC4B3C4E1F9CB117EA /* TransitionPatch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TransitionPatch-umbrella.h"; sourceTree = "<group>"; };
 		DFEC9332B6C915C06EA9BB252D5DA7CF /* Pods-PhotomorganaTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PhotomorganaTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E4A7A4FCFEC9D6837331B8B67D84025B /* Pods-Photomorgana-PhotomorganaUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Photomorgana-PhotomorganaUITests-frameworks.sh"; sourceTree = "<group>"; };
+		E6F1CCE67DA9EEC2D8FCDA65821AF7BD /* NavigationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigationView.swift; path = Sources/PixelEditor/Components/Controls/NavigationView.swift; sourceTree = "<group>"; };
+		EACF923443F5EDC4F1414C24D68CDCE7 /* ParameterRange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterRange.swift; path = Sources/PixelEngine/ParameterRange.swift; sourceTree = "<group>"; };
+		EB725600292502E8FD08DE9F2E8265FC /* PixelEditor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PixelEditor-umbrella.h"; sourceTree = "<group>"; };
 		EC57BFD545507545AAEE1A5F98DF50DE /* Pods-PhotomorganaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhotomorganaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ECFE99B5B3301B60BE9D359DC81D6D47 /* Pods-Photomorgana.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Photomorgana.modulemap"; sourceTree = "<group>"; };
-		F7277FB2D75A5BBD1F288BFA886A8F0B /* FittedSheets-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FittedSheets-dummy.m"; sourceTree = "<group>"; };
-		F79667EEEA12770666FE5DA18B011053 /* FittedSheets.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FittedSheets.release.xcconfig; sourceTree = "<group>"; };
-		F84F3219D8374D18C6800F2DBE63C96B /* FittedSheets.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FittedSheets.modulemap; sourceTree = "<group>"; };
+		EE72FA4765C9DD0B1C2C6F28E0DFF940 /* Layer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Layer.swift; path = Sources/PixelEngine/Engine/Layer.swift; sourceTree = "<group>"; };
+		EEDBF244BB6757D9BA4493439AC8B550 /* HardwareImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HardwareImageView.swift; path = Sources/PixelEngine/ImageView/HardwareImageView.swift; sourceTree = "<group>"; };
+		F14F9BB634A27FE9185A525C56AFED16 /* ColorCubeStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorCubeStorage.swift; path = Sources/PixelEngine/ColorCubeStorage.swift; sourceTree = "<group>"; };
+		F8CE96BE8DF1D4E3D6A00C78D7CB57FC /* DoodleControlView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DoodleControlView.swift; path = Sources/PixelEditor/Components/Controls/DoodleControlView.swift; sourceTree = "<group>"; };
+		FA41493A8AEEE02695E8C039586EC12F /* ColorCube.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorCube.swift; path = Sources/PixelEngine/ColorCube.swift; sourceTree = "<group>"; };
+		FC18F164CED8E6BA9815C4D87F438B1E /* Style.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Style.swift; path = Sources/PixelEditor/Style.swift; sourceTree = "<group>"; };
 		FC2020836B65B20243AB24C3676E7834 /* Pods-Photomorgana-PhotomorganaUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Photomorgana-PhotomorganaUITests-umbrella.h"; sourceTree = "<group>"; };
 		FCE499CF1A7558927160A8FC62BD5516 /* Pods-Photomorgana-PhotomorganaUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Photomorgana-PhotomorganaUITests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -106,39 +314,63 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4A4DE68BBF6319FE8BB54A9F0B83E9B7 /* Frameworks */ = {
+		4FA086DD8C4A4BF6F42F884CC2D7A302 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A63D6FB35A6741CA32A99EB8338CB093 /* Foundation.framework in Frameworks */,
+				3B1EEB1F21231C736F1FE252094D1B11 /* CoreImage.framework in Frameworks */,
+				0A52EF936E26AB4AF6478163EC2E5461 /* Foundation.framework in Frameworks */,
+				12C215E946CED48255C008FCD0515680 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		62EDBCB6F363E663166B26D8A81A774C /* Frameworks */ = {
+		75CA86F010698C25960367794B561DFE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8629D57D7F0E60F872E17B579F8B3C0 /* Foundation.framework in Frameworks */,
+				3D2C3E955BBB5B1175D53F4F8FB66FA4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DAA57C488068FA912E701433EB568CC3 /* Frameworks */ = {
+		86E7E04724FD24114A67ABCB71860650 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98384C568957069DCE64178FC5151FE1 /* Foundation.framework in Frameworks */,
+				19BEC89269A2261BC2C33C3536CF29B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91DE0D93C9D049D7CB9703D75C984D85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD679DC2B94D427D9484FC240EBAAF65 /* CoreImage.framework in Frameworks */,
+				901AF36D13992091D26DFC93BF86A461 /* Foundation.framework in Frameworks */,
+				1DF40099A1B7FD21E6904C82138F53AF /* PixelEngine.framework in Frameworks */,
+				B0BBB38C0BC35177C5DA1B6E378E4C86 /* TransitionPatch.framework in Frameworks */,
+				118353B3A9B45B9FA8E504E61B79EC63 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB1052622AF665D06914BB57424BC304 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E29EFC759481831978CFCA8BB56DD8C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		124965EE3CEB77853A1A5AC1B1A2F993 /* Pods */ = {
+		02FBBA89DBA4646C21D014D1338B39DC /* TransitionPatch */ = {
 			isa = PBXGroup;
 			children = (
-				9D63362F4A23BEFE34D3FA0BD84F6FAD /* FittedSheets */,
+				CFE2598522D7B3BB90B9EEAFD40A4CA1 /* Source.swift */,
+				DE0E1E95A844023406443941084813FE /* Support Files */,
 			);
-			name = Pods;
+			name = TransitionPatch;
+			path = TransitionPatch;
 			sourceTree = "<group>";
 		};
 		1F821FEFDD664F42FD3319F207DE24AD /* Targets Support Files */ = {
@@ -151,15 +383,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		3F203F686B46E0A7C6019775D91DBC04 /* Products */ = {
+		360EAEEEE607204B9DCED7E412B85BCA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				21AAE79511133937606E376EE52BED4F /* FittedSheets.framework */,
-				576638487C34584658C2A4843C51F5EE /* Pods_Photomorgana.framework */,
-				161BDF69916B2D127C3925952F622518 /* Pods_Photomorgana_PhotomorganaUITests.framework */,
-				9E9BA191633C490141ABAC284FCAE2CE /* Pods_PhotomorganaTests.framework */,
+				1DA5F82BE401B0BFB38A1859173A2DA0 /* Media.xcassets */,
 			);
-			name = Products;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		4DA8BF148FB2D5827F78A64EAAEFF8B3 /* Pods-Photomorgana */ = {
@@ -179,6 +408,75 @@
 			path = "Target Support Files/Pods-Photomorgana";
 			sourceTree = "<group>";
 		};
+		521FBA9C5DE6F8F1502D64A2C9265558 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1E34E590A64B014A89D1269C88F35B5 /* PixelEngine.framework */,
+				3197AFB033AD7C39CC9E38329DD8C51F /* TransitionPatch.framework */,
+				95414D16B124FDAE7EF80AC268E5D0D0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		59BBE4A910C7400AB6B57723255154ED /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2688ABB6D608585184A50F1B4EF5990 /* PixelEditor.modulemap */,
+				88F5C7D459A670C21DE13352A5761A29 /* PixelEditor-dummy.m */,
+				372E7C1BB0D06C3EF30FED7F28DBB3ED /* PixelEditor-Info.plist */,
+				B3679280F401542F93906D7C54C39D4A /* PixelEditor-prefix.pch */,
+				EB725600292502E8FD08DE9F2E8265FC /* PixelEditor-umbrella.h */,
+				DA425B567D8E3AAF75A22E964B9ACD9D /* PixelEditor.debug.xcconfig */,
+				DD75407A08642E107EC1A18B5E59D9A7 /* PixelEditor.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PixelEditor";
+			sourceTree = "<group>";
+		};
+		634800B7591767E6A97679FD2975CC8A /* PixelEngine */ = {
+			isa = PBXGroup;
+			children = (
+				1FE3DCDF8FD83C790F91105CCE0CE189 /* BlurredMask.swift */,
+				FA41493A8AEEE02695E8C039586EC12F /* ColorCube.swift */,
+				F14F9BB634A27FE9185A525C56AFED16 /* ColorCubeStorage.swift */,
+				C8AFC75B356102CC16726FB9D0BDF67B /* DrawnPath.swift */,
+				136131742B159022342C8CD304AE4960 /* DrawnPathInRect.swift */,
+				80B4B602BC0B1D46D06F163736C5AFA7 /* EditingStack.swift */,
+				9149234C1F5612E9E291B4C79DB6ED29 /* EngineLog.swift */,
+				61887AD7C0BB92E59C983EBD11799BE3 /* FilterBrightness.swift */,
+				41A3DFDC635C8DD2B27E61F75163FEF8 /* FilterColorCube.swift */,
+				A4E17FABC68A692FE26A0F8412DF25DA /* FilterContrast.swift */,
+				9665C276D5932463CC725EA2A87E7BE3 /* FilterExposure.swift */,
+				55BC6784B7DADDBAB656F2D7116F3295 /* FilterFade.swift */,
+				4C1ADBEFF202878449A55370E7FD52BC /* FilterGaussianBlur.swift */,
+				C590800DE35BA8A533C1167B756CCC5E /* FilterHighlights.swift */,
+				98928116935D28797C996595DCF70425 /* FilterHighlightShadowTint.swift */,
+				23898550958CB8C0EEF2CF9F24481D15 /* Filtering.swift */,
+				DC6CBA60171E33958DCBBB58C39BCCF2 /* FilterSaturation.swift */,
+				4A8B697EFF6CEBBEEA63E10E9B22BD19 /* FilterShadows.swift */,
+				14559D90D699CDF808CADAA8B577C2DB /* FilterSharpen.swift */,
+				147971E93C1CFCBE0F82EE870DD8DE0F /* FilterTemperature.swift */,
+				3DCF23B5D6688A8B60618B23DF6E9A1E /* FilterUnsharpMask.swift */,
+				073D1530E690A6A53D7D450015E1DD94 /* FilterVignette.swift */,
+				BBF985E18AFA0E65B10F072C3FD9F5ED /* Geometry.swift */,
+				04BE6608C11C967C4432A577823D9BAF /* GLImageView.swift */,
+				61E196D5E7BE68E75EE88548AC7B16AB /* GraphicDrawing.swift */,
+				EEDBF244BB6757D9BA4493439AC8B550 /* HardwareImageView.swift */,
+				C59FA4FEBB5DDFD5A031CF62EAD2BCA8 /* ImageRenderer.swift */,
+				7FB415C7B637059AAAA9930AD4BF5377 /* ImageSource.swift */,
+				3295C254E3962EA4628CC55F1EC17330 /* ImageTool.swift */,
+				BA8C40E2D3B95F28D795CC83E0B96956 /* InternalUtils.swift */,
+				EE72FA4765C9DD0B1C2C6F28E0DFF940 /* Layer.swift */,
+				9BC0FC01325308BF0073EFFDB94DF496 /* MetalImageView.swift */,
+				D9E4EE37BB05ED7FD4B33F93AB4F5184 /* OvalBrush.swift */,
+				EACF923443F5EDC4F1414C24D68CDCE7 /* ParameterRange.swift */,
+				8726D8B39C391E4A51AA9D9F6CC1B58F /* PixelEngine.swift */,
+				8E82E7950079EEF3223EDB02319AD8CA /* Support Files */,
+			);
+			name = PixelEngine;
+			path = PixelEngine;
+			sourceTree = "<group>";
+		};
 		858629062FACAC9594E48379EC6F2F62 /* Pods-PhotomorganaTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -195,45 +493,108 @@
 			path = "Target Support Files/Pods-PhotomorganaTests";
 			sourceTree = "<group>";
 		};
-		9D63362F4A23BEFE34D3FA0BD84F6FAD /* FittedSheets */ = {
+		8E82E7950079EEF3223EDB02319AD8CA /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4F1804FA1FEABA9C765327DEC5FA09C7 /* InitialTouchPanGestureRecognizer.swift */,
-				18842916F7707240AF0058AEA5716256 /* SheetSize.swift */,
-				BE7CA2D6A476BDD8C6BD76C99899F7B6 /* SheetViewController.swift */,
-				05E96BEA33AC4B3C4AEEDED088265ED0 /* UIViewControllerExtension.swift */,
-				11D9B5F4A017B7D2AAF0F129FCF5AF4B /* Yalta.swift */,
-				E6D95CAA014574BB8BEA6EA156F1E8FD /* Support Files */,
+				CAC424D44B80B479E97FE8DFFEBF2E27 /* PixelEngine.modulemap */,
+				2F4B50D9D2F364194986B1E46789A9E4 /* PixelEngine-dummy.m */,
+				A682B90DB60C71BEA1A1334757EE7338 /* PixelEngine-Info.plist */,
+				9DFDE32431A01324C85E3BA049BF3DB2 /* PixelEngine-prefix.pch */,
+				73111B471A104935887452A060F0D96D /* PixelEngine-umbrella.h */,
+				37C9F15D926FB13089CA2B41C298D5A5 /* PixelEngine.debug.xcconfig */,
+				442C08A599F7ABCF0A87D37907C91B5D /* PixelEngine.release.xcconfig */,
 			);
-			name = FittedSheets;
-			path = FittedSheets;
+			name = "Support Files";
+			path = "../Target Support Files/PixelEngine";
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+		95414D16B124FDAE7EF80AC268E5D0D0 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+				5CCA2DFF6A41602F09D30AAB31425A19 /* CoreImage.framework */,
+				3F507165DAF3CD589807AF06B1CA0BFF /* Foundation.framework */,
+				0FA2B73BA252234B5A1866C2345A6E94 /* UIKit.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		AAB89AE5430BC9F36721DE4BC6401E73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90A9914B0BB4A5C211B9DE3A232FFA79 /* PixelEditor.framework */,
+				C071535A417EDB253D2462DA97E40CC2 /* PixelEngine.framework */,
+				576638487C34584658C2A4843C51F5EE /* Pods_Photomorgana.framework */,
+				161BDF69916B2D127C3925952F622518 /* Pods_Photomorgana_PhotomorganaUITests.framework */,
+				9E9BA191633C490141ABAC284FCAE2CE /* Pods_PhotomorganaTests.framework */,
+				6DC7DEA16C1454419E1ACF9B0F51AAA3 /* TransitionPatch.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDAEDEFC95F621F893AB8B35C3CEE871 /* PixelEditor */ = {
+			isa = PBXGroup;
+			children = (
+				4F6C610A19DAD022F6C2A80422A43E91 /* AdjustmentControlView.swift */,
+				BCACE341E67BD591F0EA1CCBA200B906 /* BlurredMosaicView.swift */,
+				33A6ECDED9478FD3CC57EC8270621350 /* ClarityControl.swift */,
+				38B3227060AADB643079A0CB7F6129A1 /* ColorCubeControlView.swift */,
+				1F29073F6347676B4D410CE5BB98C11D /* ContrastControl.swift */,
+				7A8889A694088BDFF3DDBD56E684D924 /* ControlStackView.swift */,
+				CBEF65B778A646F1FC28C2A2E724D946 /* ControlViewBase.swift */,
+				514A7CC22DF42D2907526C51B9093ACA /* CropAndStraightenView.swift */,
+				F8CE96BE8DF1D4E3D6A00C78D7CB57FC /* DoodleControlView.swift */,
+				85A0851DF433D94BE4CD2C2DC2480473 /* DryDrawingView.swift */,
+				6D08DEDA3C2DDB8578B28BFDA522EDFF /* EditMenuControlView.swift */,
+				8B4B402B1F696429228733CAC0376B53 /* EditorLog.swift */,
+				7A943EDDA313F4B7A44D27BC3F0A76AE /* ExposureControl.swift */,
+				42BF65241A5A3DD9CB50EDA143CFBABC /* FadeControl.swift */,
+				93A4E9F30D31BA352123F29D1332AE1F /* FilterControlBase.swift */,
+				BF2C32BD5641CEC2FB43C52E3C5ED846 /* GaussianBlurControl.swift */,
+				4BB96871C3858621579830DF3E4DA21F /* HighlightsControl.swift */,
+				AC5E9D2D7A04362CAED3EF171130D51B /* ImagePreviewView.swift */,
+				C9C264613554CB75C2C4F7CBB73EC0D6 /* ImageScrollView.swift */,
+				4410E088B9CCAA52A8033D7B086271D8 /* L10n.swift */,
+				8BAB9EA549331DE133C049181171E117 /* MaskControlView.swift */,
+				E6F1CCE67DA9EEC2D8FCDA65821AF7BD /* NavigationView.swift */,
+				8DCFF8F112AF1DAAABD5973055DA8433 /* Options.swift */,
+				59D1F3C6E8CD67D95189832AB1CDAD1B /* PixelEditor.swift */,
+				323F07AC80CE36E9C599F3F12B17A844 /* PixelEditViewController.swift */,
+				C4FF5F8BD8D8E7F35F985D671F982411 /* RootControlView.swift */,
+				950A6D02455E6525E972819F60A34D8C /* SaturationControl.swift */,
+				028F4A382F53DACFD71EF269BF091EA6 /* ShadowsControl.swift */,
+				300AB53F6751FF8AA30F770D8B77508F /* SharpenControl.swift */,
+				27DE0902379A0C5E2F51127C14F4BC89 /* StepSlider.swift */,
+				FC18F164CED8E6BA9815C4D87F438B1E /* Style.swift */,
+				7631A7AA41089589FE654EBBA9FC0374 /* TempCode.swift */,
+				CD11AB8F59C723727A8EBFE023415CAB /* TemperatureControl.swift */,
+				2D373A00393EA7A3D83D1D67B51B75CC /* VignetteControl.swift */,
+				4560AEB40F0594C50E6C890867903E78 /* ZoomImageView.swift */,
+				360EAEEEE607204B9DCED7E412B85BCA /* Resources */,
+				59BBE4A910C7400AB6B57723255154ED /* Support Files */,
+			);
+			name = PixelEditor;
+			path = PixelEditor;
+			sourceTree = "<group>";
+		};
+		C4E89B0FB2D74CC94215E8F1F5D783D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BDAEDEFC95F621F893AB8B35C3CEE871 /* PixelEditor */,
+				634800B7591767E6A97679FD2975CC8A /* PixelEngine */,
+				02FBBA89DBA4646C21D014D1338B39DC /* TransitionPatch */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				124965EE3CEB77853A1A5AC1B1A2F993 /* Pods */,
-				3F203F686B46E0A7C6019775D91DBC04 /* Products */,
+				521FBA9C5DE6F8F1502D64A2C9265558 /* Frameworks */,
+				C4E89B0FB2D74CC94215E8F1F5D783D5 /* Pods */,
+				AAB89AE5430BC9F36721DE4BC6401E73 /* Products */,
 				1F821FEFDD664F42FD3319F207DE24AD /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		DA12A57BB46F77ABBF720AA4FA0EC616 /* Pods-Photomorgana-PhotomorganaUITests */ = {
@@ -253,19 +614,19 @@
 			path = "Target Support Files/Pods-Photomorgana-PhotomorganaUITests";
 			sourceTree = "<group>";
 		};
-		E6D95CAA014574BB8BEA6EA156F1E8FD /* Support Files */ = {
+		DE0E1E95A844023406443941084813FE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F84F3219D8374D18C6800F2DBE63C96B /* FittedSheets.modulemap */,
-				F7277FB2D75A5BBD1F288BFA886A8F0B /* FittedSheets-dummy.m */,
-				DF58A4C6072A340F3C369A7A8BDB43B0 /* FittedSheets-Info.plist */,
-				CAABD858528B2FF452C3C5121B4557AF /* FittedSheets-prefix.pch */,
-				759328C6234C9D6D3A42058ADD0A0898 /* FittedSheets-umbrella.h */,
-				0EC661B138B1768BF9D8E4A0CA8DD105 /* FittedSheets.debug.xcconfig */,
-				F79667EEEA12770666FE5DA18B011053 /* FittedSheets.release.xcconfig */,
+				51F5923023381B7EAD59879CE4D7E445 /* TransitionPatch.modulemap */,
+				99F81F02401B6CEA88AEB05834786B9B /* TransitionPatch-dummy.m */,
+				35810BF0E398228B15F849D0F5C9B909 /* TransitionPatch-Info.plist */,
+				90B55ECFE4408361AED66B631519544E /* TransitionPatch-prefix.pch */,
+				DD8D4ACF9F3109BC4B3C4E1F9CB117EA /* TransitionPatch-umbrella.h */,
+				5BE97CC7964F4DF06BBF5069F0D86FFC /* TransitionPatch.debug.xcconfig */,
+				BC7974986E9AB372F8CC344D257241BA /* TransitionPatch.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/FittedSheets";
+			path = "../Target Support Files/TransitionPatch";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,50 +640,104 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2C87E2108FF589EA4FFF95C728EEDF08 /* Headers */ = {
+		923C74DEBC34709BCFFAD5D8A09C0C39 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B02EE2F09A5DA3B1AB3E2D59B1D15ED9 /* FittedSheets-umbrella.h in Headers */,
+				0535D0E372F18903D8D5431C35026982 /* PixelEngine-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9605BC7A68F7D3DAB1989E57E3615D3D /* Headers */ = {
+		B8ABE765465DC9302CBC063D00B618F5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2D3D17EE85E87BA4985ED57176445D7 /* Pods-Photomorgana-umbrella.h in Headers */,
+				EB9227D5D0CA5D299EEEBA3E71BA3CE3 /* TransitionPatch-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FD80AD2C3E7DF5A46FE00143F1ED75B7 /* Headers */ = {
+		D46EA2D4D2C3C4E721F16C93D428495E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD0139470314388D7CFCD578D8A9D27E /* Pods-Photomorgana-PhotomorganaUITests-umbrella.h in Headers */,
+				769EA073507218F7D46D38DF020A2D6F /* Pods-Photomorgana-PhotomorganaUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE42E4197BD410F0269CC81A101E542 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B277529BB6E35BEB94F2835C03D8782F /* Pods-Photomorgana-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0B56AC627C47234DEF6B92D83F2BA65 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6AB513BD3E5BEB1F9E0E7AD38DE4242 /* PixelEditor-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4265C6D303F49B3723A8B93621385F98 /* Pods-Photomorgana */ = {
+		0ED58E1991F8EA474C2BD66693D279FD /* PixelEngine */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A77DA6A64FBCBF6CC49F8DC95672849D /* Build configuration list for PBXNativeTarget "Pods-Photomorgana" */;
+			buildConfigurationList = 3644DFACF62100213D49993B8A9306F4 /* Build configuration list for PBXNativeTarget "PixelEngine" */;
 			buildPhases = (
-				9605BC7A68F7D3DAB1989E57E3615D3D /* Headers */,
-				E98E155B683BC237E98F1CCF58EFEEF9 /* Sources */,
-				4A4DE68BBF6319FE8BB54A9F0B83E9B7 /* Frameworks */,
-				F5713210B21378957487BB004E471009 /* Resources */,
+				923C74DEBC34709BCFFAD5D8A09C0C39 /* Headers */,
+				F207F395B6420392DB1653E92AB58BF9 /* Sources */,
+				4FA086DD8C4A4BF6F42F884CC2D7A302 /* Frameworks */,
+				B9985878A449F57C16C8E52413A7BA78 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				189A1908E26BB03B2BA92089D95E932F /* PBXTargetDependency */,
+			);
+			name = PixelEngine;
+			productName = PixelEngine;
+			productReference = C071535A417EDB253D2462DA97E40CC2 /* PixelEngine.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4265C6D303F49B3723A8B93621385F98 /* Pods-Photomorgana */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 327CC001366676B402BFECFA7ABDD302 /* Build configuration list for PBXNativeTarget "Pods-Photomorgana" */;
+			buildPhases = (
+				EDE42E4197BD410F0269CC81A101E542 /* Headers */,
+				554332AAEE1D70050CF07CE6C45D3D4B /* Sources */,
+				86E7E04724FD24114A67ABCB71860650 /* Frameworks */,
+				E52EC976675FCC14314A11DD3ACB43B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D892C4B762E4A7F462FD9FCB66D062E /* PBXTargetDependency */,
+				CF8E8561BDAA6794AB20A52CA6A1E2CE /* PBXTargetDependency */,
+				05C8C971BEE2DAC024A9569DF14951CE /* PBXTargetDependency */,
 			);
 			name = "Pods-Photomorgana";
 			productName = "Pods-Photomorgana";
 			productReference = 576638487C34584658C2A4843C51F5EE /* Pods_Photomorgana.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7A9A58D570F0F84EC44791799CC961D2 /* TransitionPatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50045DBE4B690ACDF0B5EABC4DCA3882 /* Build configuration list for PBXNativeTarget "TransitionPatch" */;
+			buildPhases = (
+				B8ABE765465DC9302CBC063D00B618F5 /* Headers */,
+				A1DC82BEAFAF728BD869CD9516FA8DF0 /* Sources */,
+				EB1052622AF665D06914BB57424BC304 /* Frameworks */,
+				1BB811C8587BAE7EDE7CC1BA20E41F92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TransitionPatch;
+			productName = TransitionPatch;
+			productReference = 6DC7DEA16C1454419E1ACF9B0F51AAA3 /* TransitionPatch.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		849DE131CD9C9FE63CFCCDC6283C3184 /* Pods-PhotomorganaTests */ = {
@@ -346,39 +761,43 @@
 		};
 		A748BE4A9A3BFB914F20C669E4DAE06E /* Pods-Photomorgana-PhotomorganaUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2C5A6EDB76111A574AB2FA5DAB5C6C5D /* Build configuration list for PBXNativeTarget "Pods-Photomorgana-PhotomorganaUITests" */;
+			buildConfigurationList = C192AFC92E9CA03AC7F09748741FF074 /* Build configuration list for PBXNativeTarget "Pods-Photomorgana-PhotomorganaUITests" */;
 			buildPhases = (
-				FD80AD2C3E7DF5A46FE00143F1ED75B7 /* Headers */,
-				ADB96D347DD32D6378A3FC486384AE63 /* Sources */,
-				DAA57C488068FA912E701433EB568CC3 /* Frameworks */,
-				5BACBDE246C18FC66F64B1A86FA30CAA /* Resources */,
+				D46EA2D4D2C3C4E721F16C93D428495E /* Headers */,
+				728AB3D7484D3EA6613CDCBD210FE809 /* Sources */,
+				75CA86F010698C25960367794B561DFE /* Frameworks */,
+				EF72C468C3BB877C55696A7FE3FCF027 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				721E194F9BBC383D0574F8F6B48CC364 /* PBXTargetDependency */,
+				07092FE4E4625C92F81A048B41445DE9 /* PBXTargetDependency */,
+				EA1B28EC5DE7ED3F8F463AF845BBD84A /* PBXTargetDependency */,
+				5573A7C369DF319E48793ECB67D89178 /* PBXTargetDependency */,
 			);
 			name = "Pods-Photomorgana-PhotomorganaUITests";
 			productName = "Pods-Photomorgana-PhotomorganaUITests";
 			productReference = 161BDF69916B2D127C3925952F622518 /* Pods_Photomorgana_PhotomorganaUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B71C614CBF9B1B690FE941C4DF44D040 /* FittedSheets */ = {
+		D1E36550BDE17566842169E12CC5B24B /* PixelEditor */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 92109E8BE9266A2E33138970AF23418E /* Build configuration list for PBXNativeTarget "FittedSheets" */;
+			buildConfigurationList = 2BAC8445CFFDB82ED470253195E8502D /* Build configuration list for PBXNativeTarget "PixelEditor" */;
 			buildPhases = (
-				2C87E2108FF589EA4FFF95C728EEDF08 /* Headers */,
-				7CAEFE96B248DF308875D00388552D54 /* Sources */,
-				62EDBCB6F363E663166B26D8A81A774C /* Frameworks */,
-				60CD4BBA8709FAC87CFCF8CC19B6647D /* Resources */,
+				F0B56AC627C47234DEF6B92D83F2BA65 /* Headers */,
+				2F15DD137C2DAEAC0CEA1C486B6C1B92 /* Sources */,
+				91DE0D93C9D049D7CB9703D75C984D85 /* Frameworks */,
+				D5E07E9F3594A5E5E6BF30E8A9A770D3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				93DE486A45EEBF9C095316232A6D2970 /* PBXTargetDependency */,
+				4BEF0E605F940160911A42C08879CF08 /* PBXTargetDependency */,
 			);
-			name = FittedSheets;
-			productName = FittedSheets;
-			productReference = 21AAE79511133937606E376EE52BED4F /* FittedSheets.framework */;
+			name = PixelEditor;
+			productName = PixelEditor;
+			productReference = 90A9914B0BB4A5C211B9DE3A232FFA79 /* PixelEditor.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -399,14 +818,16 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 3F203F686B46E0A7C6019775D91DBC04 /* Products */;
+			productRefGroup = AAB89AE5430BC9F36721DE4BC6401E73 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B71C614CBF9B1B690FE941C4DF44D040 /* FittedSheets */,
+				D1E36550BDE17566842169E12CC5B24B /* PixelEditor */,
+				0ED58E1991F8EA474C2BD66693D279FD /* PixelEngine */,
 				4265C6D303F49B3723A8B93621385F98 /* Pods-Photomorgana */,
 				A748BE4A9A3BFB914F20C669E4DAE06E /* Pods-Photomorgana-PhotomorganaUITests */,
 				849DE131CD9C9FE63CFCCDC6283C3184 /* Pods-PhotomorganaTests */,
+				7A9A58D570F0F84EC44791799CC961D2 /* TransitionPatch */,
 			);
 		};
 /* End PBXProject section */
@@ -419,21 +840,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5BACBDE246C18FC66F64B1A86FA30CAA /* Resources */ = {
+		1BB811C8587BAE7EDE7CC1BA20E41F92 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		60CD4BBA8709FAC87CFCF8CC19B6647D /* Resources */ = {
+		B9985878A449F57C16C8E52413A7BA78 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F5713210B21378957487BB004E471009 /* Resources */ = {
+		D5E07E9F3594A5E5E6BF30E8A9A770D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DADE0414B68D699EF704CFF80C56A41 /* Media.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E52EC976675FCC14314A11DD3ACB43B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF72C468C3BB877C55696A7FE3FCF027 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -443,6 +879,57 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2F15DD137C2DAEAC0CEA1C486B6C1B92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				679D9FCDEFF736D159FFA9D82C813616 /* AdjustmentControlView.swift in Sources */,
+				E9D0BDBF060FF4FB35F2F1CFF677E031 /* BlurredMosaicView.swift in Sources */,
+				D05BC49F0CC4886E61E620717B043B8A /* ClarityControl.swift in Sources */,
+				54936A1598AA47A5B684AA819EC8541C /* ColorCubeControlView.swift in Sources */,
+				AB71394D6EB78C503133E86AF2AC5F83 /* ContrastControl.swift in Sources */,
+				C942867050B9AE2914FEAB70F240D4F9 /* ControlStackView.swift in Sources */,
+				4B1D8738FF0774725F8EE1C2AAEDE2CE /* ControlViewBase.swift in Sources */,
+				1C802E193CB06CFDF5079A9D155E03F8 /* CropAndStraightenView.swift in Sources */,
+				F66F6306549F960446D36C80EC678CC8 /* DoodleControlView.swift in Sources */,
+				EBBE31A2A34730DC5BD264A36A13EFE6 /* DryDrawingView.swift in Sources */,
+				56BDC2D8FE199BC47F977347CCC8E0A2 /* EditMenuControlView.swift in Sources */,
+				63F383F23A12E3CF2FF7AD04888E6A82 /* EditorLog.swift in Sources */,
+				8BDA73B50D528DF0CB90AF4030BB45D5 /* ExposureControl.swift in Sources */,
+				145DB3E92D8A0C9D8377F95108CAE1A8 /* FadeControl.swift in Sources */,
+				8B3423CC1EA604935230AE588E64FE27 /* FilterControlBase.swift in Sources */,
+				506830FCC03024DD794DF9242D2AFB6B /* GaussianBlurControl.swift in Sources */,
+				947742F607093CAC42658D2535DA197C /* HighlightsControl.swift in Sources */,
+				BF3D1E14B2FDDFD2B625B24E00275D23 /* ImagePreviewView.swift in Sources */,
+				33CD2154E905D1E0B2B515525EF0B700 /* ImageScrollView.swift in Sources */,
+				742B60B1668C0BA02D82F8FBBF88E34E /* L10n.swift in Sources */,
+				83DD1409BD2000C8106CE7F4EA0276F5 /* MaskControlView.swift in Sources */,
+				362DECF8E168046DB782C35609272C7A /* NavigationView.swift in Sources */,
+				D6D813092A8EBD1532FBC2D481E9214D /* Options.swift in Sources */,
+				C8F913505B8D4649D7B53D9FF0572F5E /* PixelEditor-dummy.m in Sources */,
+				D7D66DF093F3E9104F0EF0433CA2BA19 /* PixelEditor.swift in Sources */,
+				6CA9357D3F18ADE6F9251D73F63ED136 /* PixelEditViewController.swift in Sources */,
+				9A88F6722AA3A0696AB54049C6445DEC /* RootControlView.swift in Sources */,
+				6D9FF8DF2338EDE5ADA3A7CB65F2AA01 /* SaturationControl.swift in Sources */,
+				0068D743B20E8902AEEAE56CF8356020 /* ShadowsControl.swift in Sources */,
+				02C3A81439926FB1A6B504FECB0EA4DC /* SharpenControl.swift in Sources */,
+				76FB4B023726E7E965409D96BF864506 /* StepSlider.swift in Sources */,
+				8FCA096B34C7B27DC4838B9B8C986372 /* Style.swift in Sources */,
+				A084DA479E3B771F4A783C3A7CBE6FAE /* TempCode.swift in Sources */,
+				74167B7C3667E169ED37EC9C65346554 /* TemperatureControl.swift in Sources */,
+				A19DCC92CD9B88E52038CB34D3235763 /* VignetteControl.swift in Sources */,
+				31091E9AE166E8EDE865A48FBBA45D46 /* ZoomImageView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		554332AAEE1D70050CF07CE6C45D3D4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C806E4075C46DA931AEC2C8B5DE6192 /* Pods-Photomorgana-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		721492A0F010D5F64DC5899904BABF7D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -451,49 +938,92 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7CAEFE96B248DF308875D00388552D54 /* Sources */ = {
+		728AB3D7484D3EA6613CDCBD210FE809 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96F73A745FD2532410C8DFC5C036BACD /* FittedSheets-dummy.m in Sources */,
-				8806921DD4A51C4C41C9B154519A082B /* InitialTouchPanGestureRecognizer.swift in Sources */,
-				1B87DAD9660487FB9A81215800183124 /* SheetSize.swift in Sources */,
-				8C91E1421BA7BE9A02E902B5AB8F6484 /* SheetViewController.swift in Sources */,
-				B1B913EDBD95A2C27F055D19EFB20169 /* UIViewControllerExtension.swift in Sources */,
-				EC1143DAD5ED88572995113DD1D255C6 /* Yalta.swift in Sources */,
+				B396620390B8F654ECFF0C5228615305 /* Pods-Photomorgana-PhotomorganaUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ADB96D347DD32D6378A3FC486384AE63 /* Sources */ = {
+		A1DC82BEAFAF728BD869CD9516FA8DF0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E2B3BBC8A459662E9D43811D99A08F8 /* Pods-Photomorgana-PhotomorganaUITests-dummy.m in Sources */,
+				68FF5478DCCD707956889E23A563B795 /* Source.swift in Sources */,
+				681E724730617F0FAAB4ADEDD483662D /* TransitionPatch-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E98E155B683BC237E98F1CCF58EFEEF9 /* Sources */ = {
+		F207F395B6420392DB1653E92AB58BF9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				194A6D90E1A75C16DB90DDC8F294E307 /* Pods-Photomorgana-dummy.m in Sources */,
+				F12D80D00F3EFC98CDBDA93E28280982 /* BlurredMask.swift in Sources */,
+				73C83C73F419CB9A8994FDEBAC2F76C0 /* ColorCube.swift in Sources */,
+				30D806BF763AC6C5E5CD884B17F9B87D /* ColorCubeStorage.swift in Sources */,
+				051463889C97F1281C0712FCF9C7A0D0 /* DrawnPath.swift in Sources */,
+				B3AF1646231E85AFF5C2C17D872FCF4C /* DrawnPathInRect.swift in Sources */,
+				D166C84B2141A45AF0CA69EDB623874F /* EditingStack.swift in Sources */,
+				66B474823D72E70A58AD772FCBDF2851 /* EngineLog.swift in Sources */,
+				1E57E803B410EDD3C4267EF2822622BA /* FilterBrightness.swift in Sources */,
+				6C5CD44C2B599A9225CB7DE2BD9ECFB6 /* FilterColorCube.swift in Sources */,
+				916262F53A75FCD2E3344985B4CA8B17 /* FilterContrast.swift in Sources */,
+				6FED1D503DED4FFC0F842487F889062B /* FilterExposure.swift in Sources */,
+				438D00DE2698FC6DE829A928C8E85402 /* FilterFade.swift in Sources */,
+				5DA7A69A608E3899B184E06FDE402157 /* FilterGaussianBlur.swift in Sources */,
+				AB3481A0D4E6E01C2B425B1CD9EC3C47 /* FilterHighlights.swift in Sources */,
+				5201E6044F81904964A9DBF1D20C921F /* FilterHighlightShadowTint.swift in Sources */,
+				C09E88FEB8F63ED329B46227149C29FA /* Filtering.swift in Sources */,
+				1B2496C39EE33A464A7F0132DCDC9A28 /* FilterSaturation.swift in Sources */,
+				757F3D5101647E4095C05BB40C62AECD /* FilterShadows.swift in Sources */,
+				EFDE056835EC9AA190E15E55B7EF0CFA /* FilterSharpen.swift in Sources */,
+				5E1FB4C0A464BDE124D476D9286490B5 /* FilterTemperature.swift in Sources */,
+				0F2E851EC0CD2ADE058B71948CF15254 /* FilterUnsharpMask.swift in Sources */,
+				2169795251C5710BC5D5C2AA16010D16 /* FilterVignette.swift in Sources */,
+				5B1E813D004425F540916DC283FECC78 /* Geometry.swift in Sources */,
+				EC124F3A1EF8C85740482009940D241B /* GLImageView.swift in Sources */,
+				9702FC80347CCACEDFEF701BD3DB7562 /* GraphicDrawing.swift in Sources */,
+				F6145725FC577BA8217205AD8FA34CA8 /* HardwareImageView.swift in Sources */,
+				849B89845683795DBD077AFA240A1235 /* ImageRenderer.swift in Sources */,
+				4FA7911D4833F595B9F5277DDB17A397 /* ImageSource.swift in Sources */,
+				A8A8FAFC818370A7255240F0A11A91D4 /* ImageTool.swift in Sources */,
+				A19369CAFDEB030500A7E6309E57EE32 /* InternalUtils.swift in Sources */,
+				9294355CFB276422A4497DF62EF6E600 /* Layer.swift in Sources */,
+				A6E5A0F9CA4B991162FF515FCC0C1AD1 /* MetalImageView.swift in Sources */,
+				88ABEE2776D6B9BFE888C11D595EBAA5 /* OvalBrush.swift in Sources */,
+				EFD824B87D0EAE2C2C77A058AAA1F204 /* ParameterRange.swift in Sources */,
+				99127F049717269111A61B3782C912B9 /* PixelEngine-dummy.m in Sources */,
+				A71177C48FF81FD1B23FF9EC3FB88649 /* PixelEngine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		189A1908E26BB03B2BA92089D95E932F /* PBXTargetDependency */ = {
+		05C8C971BEE2DAC024A9569DF14951CE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = FittedSheets;
-			target = B71C614CBF9B1B690FE941C4DF44D040 /* FittedSheets */;
-			targetProxy = 385F6135BD352FB98E8076B713CA181D /* PBXContainerItemProxy */;
+			name = TransitionPatch;
+			target = 7A9A58D570F0F84EC44791799CC961D2 /* TransitionPatch */;
+			targetProxy = DEC7CE5053211236C12CE5E2FBFD416D /* PBXContainerItemProxy */;
 		};
-		721E194F9BBC383D0574F8F6B48CC364 /* PBXTargetDependency */ = {
+		07092FE4E4625C92F81A048B41445DE9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = FittedSheets;
-			target = B71C614CBF9B1B690FE941C4DF44D040 /* FittedSheets */;
-			targetProxy = 0CEDE0FBF2C43B410329D51529F82451 /* PBXContainerItemProxy */;
+			name = PixelEditor;
+			target = D1E36550BDE17566842169E12CC5B24B /* PixelEditor */;
+			targetProxy = 48FB43D6506610A2FFA78881151AC630 /* PBXContainerItemProxy */;
+		};
+		4BEF0E605F940160911A42C08879CF08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TransitionPatch;
+			target = 7A9A58D570F0F84EC44791799CC961D2 /* TransitionPatch */;
+			targetProxy = 338A77AD259833ADA6540EF1F1DC5CEE /* PBXContainerItemProxy */;
+		};
+		5573A7C369DF319E48793ECB67D89178 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TransitionPatch;
+			target = 7A9A58D570F0F84EC44791799CC961D2 /* TransitionPatch */;
+			targetProxy = ADEE10A4358452C9F9D93A02E829008C /* PBXContainerItemProxy */;
 		};
 		81636CA1A79BF9C8CD2E85035D1DB411 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -501,50 +1031,37 @@
 			target = 4265C6D303F49B3723A8B93621385F98 /* Pods-Photomorgana */;
 			targetProxy = 0E90F935E6F946C358466CBD470F77F5 /* PBXContainerItemProxy */;
 		};
+		8D892C4B762E4A7F462FD9FCB66D062E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PixelEditor;
+			target = D1E36550BDE17566842169E12CC5B24B /* PixelEditor */;
+			targetProxy = 0B4A4A9138BE9B4D9146D144E2F81455 /* PBXContainerItemProxy */;
+		};
+		93DE486A45EEBF9C095316232A6D2970 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PixelEngine;
+			target = 0ED58E1991F8EA474C2BD66693D279FD /* PixelEngine */;
+			targetProxy = A929234FB21F01DCCD1AAC36B2A6C4FA /* PBXContainerItemProxy */;
+		};
+		CF8E8561BDAA6794AB20A52CA6A1E2CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PixelEngine;
+			target = 0ED58E1991F8EA474C2BD66693D279FD /* PixelEngine */;
+			targetProxy = 24E8700DF05D30C50F6675577588D2A3 /* PBXContainerItemProxy */;
+		};
+		EA1B28EC5DE7ED3F8F463AF845BBD84A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PixelEngine;
+			target = 0ED58E1991F8EA474C2BD66693D279FD /* PixelEngine */;
+			targetProxy = 17BD4428B8463034BF89B4AB3A5E0443 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0160F193A40F2DF5A9F10C03AEBE305D /* Release */ = {
+		2C7196ECD368AEFD3E4CD5301C4A1FE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F79667EEEA12770666FE5DA18B011053 /* FittedSheets.release.xcconfig */;
+			baseConfigurationReference = DA425B567D8E3AAF75A22E964B9ACD9D /* PixelEditor.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FittedSheets/FittedSheets-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FittedSheets/FittedSheets-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/FittedSheets/FittedSheets.modulemap";
-				PRODUCT_MODULE_NAME = FittedSheets;
-				PRODUCT_NAME = FittedSheets;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3F9DDDB4808A161DC7BECB6B9056C667 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 71CB0EDF8D9717754BDF2883F32E3BD1 /* Pods-Photomorgana-PhotomorganaUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -555,35 +1072,32 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Photomorgana-PhotomorganaUITests/Pods-Photomorgana-PhotomorganaUITests-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/PixelEditor/PixelEditor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PixelEditor/PixelEditor-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Photomorgana-PhotomorganaUITests/Pods-Photomorgana-PhotomorganaUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/PixelEditor/PixelEditor.modulemap";
+				PRODUCT_MODULE_NAME = PixelEditor;
+				PRODUCT_NAME = PixelEditor;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		48C4BF6BB1E562DBA4BC501012F5B272 /* Debug */ = {
+		4749F82AFE9F69069AC8C23029C3312B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D1260BA173BAF8F4FE269CB9F473123 /* Pods-Photomorgana.debug.xcconfig */;
+			baseConfigurationReference = 5BE97CC7964F4DF06BBF5069F0D86FFC /* TransitionPatch.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -593,23 +1107,22 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Photomorgana/Pods-Photomorgana-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/TransitionPatch/TransitionPatch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TransitionPatch/TransitionPatch-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Photomorgana/Pods-Photomorgana.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/TransitionPatch/TransitionPatch.modulemap";
+				PRODUCT_MODULE_NAME = TransitionPatch;
+				PRODUCT_NAME = TransitionPatch;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -655,7 +1168,7 @@
 			};
 			name = Release;
 		};
-		657D4A54B07B416A7CF329C82AE15CA9 /* Release */ = {
+		63148B3C9F4CA77F1C591C3AD35D432D /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1251FE7DE2786BFAC8F6DAB0AE62F0F0 /* Pods-Photomorgana-PhotomorganaUITests.release.xcconfig */;
 			buildSettings = {
@@ -758,41 +1271,6 @@
 			};
 			name = Debug;
 		};
-		6EF690BC7046049FB9F0A8C4966747C7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0EC661B138B1768BF9D8E4A0CA8DD105 /* FittedSheets.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FittedSheets/FittedSheets-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FittedSheets/FittedSheets-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/FittedSheets/FittedSheets.modulemap";
-				PRODUCT_MODULE_NAME = FittedSheets;
-				PRODUCT_NAME = FittedSheets;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		7DC5F11AFBEAE473E8D3C24A2D11338D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -853,7 +1331,7 @@
 			};
 			name = Release;
 		};
-		DA489CC7C27B01A289E5755DCFD693E6 /* Release */ = {
+		85EB65C8096CD37A2BC7D338DE245D27 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 020E7EFA6415A3FD6AC6AD0EA74B4EC2 /* Pods-Photomorgana.release.xcconfig */;
 			buildSettings = {
@@ -891,6 +1369,192 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		8862E4B328513F085209005C9B886C22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 442C08A599F7ABCF0A87D37907C91B5D /* PixelEngine.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PixelEngine/PixelEngine-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PixelEngine/PixelEngine-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PixelEngine/PixelEngine.modulemap";
+				PRODUCT_MODULE_NAME = PixelEngine;
+				PRODUCT_NAME = PixelEngine;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		93D04266E4ECDBABB82920DBF86C2109 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD75407A08642E107EC1A18B5E59D9A7 /* PixelEditor.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PixelEditor/PixelEditor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PixelEditor/PixelEditor-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PixelEditor/PixelEditor.modulemap";
+				PRODUCT_MODULE_NAME = PixelEditor;
+				PRODUCT_NAME = PixelEditor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B5EB5490DBC9F694705EA2AC189F749E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37C9F15D926FB13089CA2B41C298D5A5 /* PixelEngine.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PixelEngine/PixelEngine-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PixelEngine/PixelEngine-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PixelEngine/PixelEngine.modulemap";
+				PRODUCT_MODULE_NAME = PixelEngine;
+				PRODUCT_NAME = PixelEngine;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DE7163523123DA41F0170A93F5E3B103 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71CB0EDF8D9717754BDF2883F32E3BD1 /* Pods-Photomorgana-PhotomorganaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Photomorgana-PhotomorganaUITests/Pods-Photomorgana-PhotomorganaUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Photomorgana-PhotomorganaUITests/Pods-Photomorgana-PhotomorganaUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EF1FF13C5E12DC51A3CB938509559D5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D1260BA173BAF8F4FE269CB9F473123 /* Pods-Photomorgana.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Photomorgana/Pods-Photomorgana-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Photomorgana/Pods-Photomorgana.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		FC6EA50B1283DF595B65F8ACE6E3C54A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -930,14 +1594,68 @@
 			};
 			name = Debug;
 		};
+		FF163488BF6C503BE486509F291A1779 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC7974986E9AB372F8CC344D257241BA /* TransitionPatch.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TransitionPatch/TransitionPatch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TransitionPatch/TransitionPatch-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TransitionPatch/TransitionPatch.modulemap";
+				PRODUCT_MODULE_NAME = TransitionPatch;
+				PRODUCT_NAME = TransitionPatch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2C5A6EDB76111A574AB2FA5DAB5C6C5D /* Build configuration list for PBXNativeTarget "Pods-Photomorgana-PhotomorganaUITests" */ = {
+		2BAC8445CFFDB82ED470253195E8502D /* Build configuration list for PBXNativeTarget "PixelEditor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3F9DDDB4808A161DC7BECB6B9056C667 /* Debug */,
-				657D4A54B07B416A7CF329C82AE15CA9 /* Release */,
+				2C7196ECD368AEFD3E4CD5301C4A1FE1 /* Debug */,
+				93D04266E4ECDBABB82920DBF86C2109 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		327CC001366676B402BFECFA7ABDD302 /* Build configuration list for PBXNativeTarget "Pods-Photomorgana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1FF13C5E12DC51A3CB938509559D5F /* Debug */,
+				85EB65C8096CD37A2BC7D338DE245D27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3644DFACF62100213D49993B8A9306F4 /* Build configuration list for PBXNativeTarget "PixelEngine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5EB5490DBC9F694705EA2AC189F749E /* Debug */,
+				8862E4B328513F085209005C9B886C22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -951,6 +1669,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		50045DBE4B690ACDF0B5EABC4DCA3882 /* Build configuration list for PBXNativeTarget "TransitionPatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4749F82AFE9F69069AC8C23029C3312B /* Debug */,
+				FF163488BF6C503BE486509F291A1779 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		5495620FB4109890E1860D4F22847502 /* Build configuration list for PBXNativeTarget "Pods-PhotomorganaTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -960,20 +1687,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		92109E8BE9266A2E33138970AF23418E /* Build configuration list for PBXNativeTarget "FittedSheets" */ = {
+		C192AFC92E9CA03AC7F09748741FF074 /* Build configuration list for PBXNativeTarget "Pods-Photomorgana-PhotomorganaUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6EF690BC7046049FB9F0A8C4966747C7 /* Debug */,
-				0160F193A40F2DF5A9F10C03AEBE305D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A77DA6A64FBCBF6CC49F8DC95672849D /* Build configuration list for PBXNativeTarget "Pods-Photomorgana" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				48C4BF6BB1E562DBA4BC501012F5B272 /* Debug */,
-				DA489CC7C27B01A289E5755DCFD693E6 /* Release */,
+				DE7163523123DA41F0170A93F5E3B103 /* Debug */,
+				63148B3C9F4CA77F1C591C3AD35D432D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

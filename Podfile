@@ -6,7 +6,8 @@ target 'Photomorgana' do
   use_frameworks!
 
   # Pods for Photomorgana
-pod 'FittedSheets'
+pod 'PixelEngine'
+pod 'PixelEditor'
 
   target 'PhotomorganaTests' do
     inherit! :search_paths
