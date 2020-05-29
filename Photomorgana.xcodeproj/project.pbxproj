@@ -39,18 +39,18 @@
 		0A7BDFAD24725CFC00655024 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A7BDFAC24725CFC00655024 /* Main.storyboard */; };
 		0AF1F9A224728A28000CD720 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF1F9A124728A28000CD720 /* Photos.framework */; };
 		0D239F6F8729DBBB319FF0A5 /* Pods_PhotomorganaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EF41AD60FBEEFD2BDCF0F3 /* Pods_PhotomorganaTests.framework */; };
-		3D5FB1532480DBA50096EFE2 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D5FB1522480DBA50096EFE2 /* Profile.storyboard */; };
-		3D5FB1552480DBF10096EFE2 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5FB1542480DBF10096EFE2 /* ThirdViewController.swift */; };
-		3D5FB15B2480DC110096EFE2 /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5FB1572480DC110096EFE2 /* Collection.swift */; };
-		3D5FB15C2480DC110096EFE2 /* DescCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5FB1582480DC110096EFE2 /* DescCollection.swift */; };
-		3D5FB15D2480DC110096EFE2 /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5FB1592480DC110096EFE2 /* ProfileTableViewCell.swift */; };
-		3D5FB15F2480DD7C0096EFE2 /* Explore.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D5FB15E2480DD7C0096EFE2 /* Explore.storyboard */; };
-		3D5FB1672480E2780096EFE2 /* Explore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5FB1662480E2780096EFE2 /* Explore.swift */; };
-		3D5FB1692480E2930096EFE2 /* DescExplore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5FB1682480E2930096EFE2 /* DescExplore.swift */; };
-		3D5FB16E2480E2A20096EFE2 /* ProfileTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D5FB16A2480E2A20096EFE2 /* ProfileTableViewCell.xib */; };
 		3D5FB16F2480E2A20096EFE2 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5FB16B2480E2A20096EFE2 /* ExploreViewController.swift */; };
 		3D5FB1702480E2A20096EFE2 /* ExploreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5FB16C2480E2A20096EFE2 /* ExploreTableViewCell.swift */; };
-		3D5FB1712480E2A20096EFE2 /* ExploreTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D5FB16D2480E2A20096EFE2 /* ExploreTableViewCell.xib */; };
+		3D5FB1732480FFEB0096EFE2 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5FB1722480FFEB0096EFE2 /* ThirdViewController.swift */; };
+		3D5FB175248100260096EFE2 /* DescCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5FB174248100260096EFE2 /* DescCollection.swift */; };
+		3D5FB1772481002F0096EFE2 /* Explore.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D5FB1762481002F0096EFE2 /* Explore.storyboard */; };
+		3D5FB179248100410096EFE2 /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5FB178248100410096EFE2 /* ProfileTableViewCell.swift */; };
+		3D5FB17B2481005A0096EFE2 /* DescExplore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5FB17A2481005A0096EFE2 /* DescExplore.swift */; };
+		3D5FB17D2481006F0096EFE2 /* ProfileTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D5FB17C2481006F0096EFE2 /* ProfileTableViewCell.xib */; };
+		3D5FB17F248100AB0096EFE2 /* ExploreTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D5FB17E248100AB0096EFE2 /* ExploreTableViewCell.xib */; };
+		3D5FB181248100CC0096EFE2 /* Explore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5FB180248100CC0096EFE2 /* Explore.swift */; };
+		3D5FB183248100F90096EFE2 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D5FB182248100F80096EFE2 /* Profile.storyboard */; };
+		3D5FB185248101200096EFE2 /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5FB184248101200096EFE2 /* Collection.swift */; };
 		83092A6A3240A9C9A9DFA82F /* Pods_Photomorgana.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBAECA659D5BD74728592041 /* Pods_Photomorgana.framework */; };
 		B30396497BA85B607B297799 /* Pods_Photomorgana_PhotomorganaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C46C190C6A3C0B9F6787FFD8 /* Pods_Photomorgana_PhotomorganaUITests.framework */; };
 /* End PBXBuildFile section */
@@ -113,18 +113,18 @@
 		0AF1F9A124728A28000CD720 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
 		16A68E7B1FE807D5C1ED31C8 /* Pods-PhotomorganaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotomorganaTests.release.xcconfig"; path = "Target Support Files/Pods-PhotomorganaTests/Pods-PhotomorganaTests.release.xcconfig"; sourceTree = "<group>"; };
 		18EF41AD60FBEEFD2BDCF0F3 /* Pods_PhotomorganaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotomorganaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D5FB1522480DBA50096EFE2 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Profile.storyboard; path = ../../../../Downloads/Profile.storyboard; sourceTree = "<group>"; };
-		3D5FB1542480DBF10096EFE2 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThirdViewController.swift; path = ../../../Downloads/ThirdViewController.swift; sourceTree = "<group>"; };
-		3D5FB1572480DC110096EFE2 /* Collection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Collection.swift; path = ../../../Downloads/Collection.swift; sourceTree = "<group>"; };
-		3D5FB1582480DC110096EFE2 /* DescCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DescCollection.swift; path = ../../../Downloads/DescCollection.swift; sourceTree = "<group>"; };
-		3D5FB1592480DC110096EFE2 /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileTableViewCell.swift; path = ../../../Downloads/ProfileTableViewCell.swift; sourceTree = "<group>"; };
-		3D5FB15E2480DD7C0096EFE2 /* Explore.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Explore.storyboard; path = ../../../../Downloads/Explore.storyboard; sourceTree = "<group>"; };
-		3D5FB1662480E2780096EFE2 /* Explore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Explore.swift; path = ../../../Downloads/Explore.swift; sourceTree = "<group>"; };
-		3D5FB1682480E2930096EFE2 /* DescExplore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DescExplore.swift; path = ../../../Downloads/DescExplore.swift; sourceTree = "<group>"; };
-		3D5FB16A2480E2A20096EFE2 /* ProfileTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ProfileTableViewCell.xib; path = ../../../Downloads/ProfileTableViewCell.xib; sourceTree = "<group>"; };
 		3D5FB16B2480E2A20096EFE2 /* ExploreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExploreViewController.swift; path = ../../../Downloads/ExploreViewController.swift; sourceTree = "<group>"; };
 		3D5FB16C2480E2A20096EFE2 /* ExploreTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExploreTableViewCell.swift; path = ../../../Downloads/ExploreTableViewCell.swift; sourceTree = "<group>"; };
-		3D5FB16D2480E2A20096EFE2 /* ExploreTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ExploreTableViewCell.xib; path = ../../../Downloads/ExploreTableViewCell.xib; sourceTree = "<group>"; };
+		3D5FB1722480FFEB0096EFE2 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		3D5FB174248100260096EFE2 /* DescCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescCollection.swift; sourceTree = "<group>"; };
+		3D5FB1762481002F0096EFE2 /* Explore.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Explore.storyboard; path = Photomorgana/Explore.storyboard; sourceTree = SOURCE_ROOT; };
+		3D5FB178248100410096EFE2 /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
+		3D5FB17A2481005A0096EFE2 /* DescExplore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescExplore.swift; sourceTree = "<group>"; };
+		3D5FB17C2481006F0096EFE2 /* ProfileTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ProfileTableViewCell.xib; path = Photomorgana/ProfileTableViewCell.xib; sourceTree = SOURCE_ROOT; };
+		3D5FB17E248100AB0096EFE2 /* ExploreTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExploreTableViewCell.xib; sourceTree = "<group>"; };
+		3D5FB180248100CC0096EFE2 /* Explore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Explore.swift; sourceTree = "<group>"; };
+		3D5FB182248100F80096EFE2 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		3D5FB184248101200096EFE2 /* Collection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Collection.swift; sourceTree = "<group>"; };
 		3DCA61CF247B81820058E078 /* SignUpOrLogIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUpOrLogIn.storyboard; sourceTree = "<group>"; };
 		3DCA61D0247B81820058E078 /* ProfileTab.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProfileTab.storyboard; sourceTree = "<group>"; };
 		3DCA61D1247B81830058E078 /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
@@ -194,21 +194,21 @@
 		0A0CF07A246964540033BB4E /* Photomorgana */ = {
 			isa = PBXGroup;
 			children = (
-				3D5FB1662480E2780096EFE2 /* Explore.swift */,
-				3D5FB1572480DC110096EFE2 /* Collection.swift */,
 				3D5FB16C2480E2A20096EFE2 /* ExploreTableViewCell.swift */,
-				3D5FB16D2480E2A20096EFE2 /* ExploreTableViewCell.xib */,
+				3D5FB174248100260096EFE2 /* DescCollection.swift */,
 				3D5FB16B2480E2A20096EFE2 /* ExploreViewController.swift */,
-				3D5FB16A2480E2A20096EFE2 /* ProfileTableViewCell.xib */,
-				3D5FB1682480E2930096EFE2 /* DescExplore.swift */,
-				3D5FB1582480DC110096EFE2 /* DescCollection.swift */,
-				3D5FB1592480DC110096EFE2 /* ProfileTableViewCell.swift */,
+				3D5FB17E248100AB0096EFE2 /* ExploreTableViewCell.xib */,
+				3D5FB180248100CC0096EFE2 /* Explore.swift */,
+				3D5FB178248100410096EFE2 /* ProfileTableViewCell.swift */,
+				3D5FB17C2481006F0096EFE2 /* ProfileTableViewCell.xib */,
+				3D5FB17A2481005A0096EFE2 /* DescExplore.swift */,
+				3D5FB184248101200096EFE2 /* Collection.swift */,
 				3DCA61CA247B813E0058E078 /* Storyboard */,
 				0A55FC102476A00600605CF1 /* Atelier */,
 				0A0CF07B246964540033BB4E /* AppDelegate.swift */,
 				0A0CF07D246964540033BB4E /* SceneDelegate.swift */,
 				0A0CF081246964540033BB4E /* SecondViewController.swift */,
-				3D5FB1542480DBF10096EFE2 /* ThirdViewController.swift */,
+				3D5FB1722480FFEB0096EFE2 /* ThirdViewController.swift */,
 				0A0CF086246964560033BB4E /* Assets.xcassets */,
 				0A0CF088246964560033BB4E /* LaunchScreen.storyboard */,
 				0A0CF08B246964560033BB4E /* Info.plist */,
@@ -283,11 +283,11 @@
 		3DCA61CA247B813E0058E078 /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
-				3D5FB15E2480DD7C0096EFE2 /* Explore.storyboard */,
 				3DCA61D0247B81820058E078 /* ProfileTab.storyboard */,
 				3DCA61D1247B81830058E078 /* Settings.storyboard */,
+				3D5FB182248100F80096EFE2 /* Profile.storyboard */,
 				3DCA61CF247B81820058E078 /* SignUpOrLogIn.storyboard */,
-				3D5FB1522480DBA50096EFE2 /* Profile.storyboard */,
+				3D5FB1762481002F0096EFE2 /* Explore.storyboard */,
 				0A7BDFAC24725CFC00655024 /* Main.storyboard */,
 			);
 			path = Storyboard;
@@ -417,22 +417,22 @@
 			files = (
 				0A7BDFAD24725CFC00655024 /* Main.storyboard in Resources */,
 				0A78BEDC24696D7900D7A530 /* SF-Pro-Text-UltralightItalic.otf in Resources */,
+				3D5FB1772481002F0096EFE2 /* Explore.storyboard in Resources */,
 				0A0CF08A246964560033BB4E /* LaunchScreen.storyboard in Resources */,
 				0A78BED424696D7900D7A530 /* SF-Pro-Text-MediumItalic.otf in Resources */,
 				0A78BED224696D7900D7A530 /* SF-Pro-Text-LightItalic.otf in Resources */,
-				3D5FB16E2480E2A20096EFE2 /* ProfileTableViewCell.xib in Resources */,
 				0A78BECE24696D7900D7A530 /* SF-Pro-Text-BoldItalic.otf in Resources */,
 				0A78BED724696D7900D7A530 /* SF-Pro-Text-Semibold.otf in Resources */,
-				3D5FB1532480DBA50096EFE2 /* Profile.storyboard in Resources */,
+				3D5FB17D2481006F0096EFE2 /* ProfileTableViewCell.xib in Resources */,
 				0A0CF087246964560033BB4E /* Assets.xcassets in Resources */,
+				3D5FB17F248100AB0096EFE2 /* ExploreTableViewCell.xib in Resources */,
 				0A78BECD24696D7900D7A530 /* SF-Pro-Text-Bold.otf in Resources */,
-				3D5FB1712480E2A20096EFE2 /* ExploreTableViewCell.xib in Resources */,
 				0A78BED524696D7900D7A530 /* SF-Pro-Text-Regular.otf in Resources */,
 				0A78BED924696D7900D7A530 /* SF-Pro-Text-Thin.otf in Resources */,
 				0A78BED624696D7900D7A530 /* SF-Pro-Text-RegularItalic.otf in Resources */,
 				0A78BED124696D7900D7A530 /* SF-Pro-Text-Light.otf in Resources */,
 				0A78BED824696D7900D7A530 /* SF-Pro-Text-SemiboldItalic.otf in Resources */,
-				3D5FB15F2480DD7C0096EFE2 /* Explore.storyboard in Resources */,
+				3D5FB183248100F90096EFE2 /* Profile.storyboard in Resources */,
 				0A78BED024696D7900D7A530 /* SF-Pro-Text-HeavyItalic.otf in Resources */,
 				0A78BED324696D7900D7A530 /* SF-Pro-Text-Medium.otf in Resources */,
 				0A78BECB24696D7900D7A530 /* SF-Pro-Text-Black.otf in Resources */,
@@ -567,21 +567,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D5FB15B2480DC110096EFE2 /* Collection.swift in Sources */,
 				0A0CF082246964540033BB4E /* SecondViewController.swift in Sources */,
 				0A0CF080246964540033BB4E /* AtelierCollectionView.swift in Sources */,
-				3D5FB15D2480DC110096EFE2 /* ProfileTableViewCell.swift in Sources */,
-				3D5FB1692480E2930096EFE2 /* DescExplore.swift in Sources */,
 				0A55FC122476A01D00605CF1 /* EditViewController.swift in Sources */,
 				3D5FB1702480E2A20096EFE2 /* ExploreTableViewCell.swift in Sources */,
+				3D5FB17B2481005A0096EFE2 /* DescExplore.swift in Sources */,
+				3D5FB181248100CC0096EFE2 /* Explore.swift in Sources */,
+				3D5FB185248101200096EFE2 /* Collection.swift in Sources */,
 				0A094C56247D72B8009E0C6E /* Model.xcdatamodeld in Sources */,
+				3D5FB175248100260096EFE2 /* DescCollection.swift in Sources */,
 				0A0CF07C246964540033BB4E /* AppDelegate.swift in Sources */,
-				3D5FB15C2480DC110096EFE2 /* DescCollection.swift in Sources */,
 				0A1236532476ECD4009F6EC1 /* BottomSheet.swift in Sources */,
-				3D5FB1552480DBF10096EFE2 /* ThirdViewController.swift in Sources */,
+				3D5FB179248100410096EFE2 /* ProfileTableViewCell.swift in Sources */,
 				0A0CF07E246964540033BB4E /* SceneDelegate.swift in Sources */,
 				3D5FB16F2480E2A20096EFE2 /* ExploreViewController.swift in Sources */,
-				3D5FB1672480E2780096EFE2 /* Explore.swift in Sources */,
+				3D5FB1732480FFEB0096EFE2 /* ThirdViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
