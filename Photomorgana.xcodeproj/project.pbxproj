@@ -51,6 +51,7 @@
 		3D5FB181248100CC0096EFE2 /* Explore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5FB180248100CC0096EFE2 /* Explore.swift */; };
 		3D5FB183248100F90096EFE2 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D5FB182248100F80096EFE2 /* Profile.storyboard */; };
 		3D5FB185248101200096EFE2 /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5FB184248101200096EFE2 /* Collection.swift */; };
+		3D5FB18824813EE20096EFE2 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5FB18724813EE20096EFE2 /* CloudKit.framework */; };
 		83092A6A3240A9C9A9DFA82F /* Pods_Photomorgana.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBAECA659D5BD74728592041 /* Pods_Photomorgana.framework */; };
 		B30396497BA85B607B297799 /* Pods_Photomorgana_PhotomorganaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C46C190C6A3C0B9F6787FFD8 /* Pods_Photomorgana_PhotomorganaUITests.framework */; };
 /* End PBXBuildFile section */
@@ -125,6 +126,8 @@
 		3D5FB180248100CC0096EFE2 /* Explore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Explore.swift; sourceTree = "<group>"; };
 		3D5FB182248100F80096EFE2 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		3D5FB184248101200096EFE2 /* Collection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Collection.swift; sourceTree = "<group>"; };
+		3D5FB18624813DC20096EFE2 /* Photomorgana.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Photomorgana.entitlements; sourceTree = "<group>"; };
+		3D5FB18724813EE20096EFE2 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		3DCA61CF247B81820058E078 /* SignUpOrLogIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUpOrLogIn.storyboard; sourceTree = "<group>"; };
 		3DCA61D0247B81820058E078 /* ProfileTab.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProfileTab.storyboard; sourceTree = "<group>"; };
 		3DCA61D1247B81830058E078 /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
@@ -142,6 +145,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D5FB18824813EE20096EFE2 /* CloudKit.framework in Frameworks */,
 				0AF1F9A224728A28000CD720 /* Photos.framework in Frameworks */,
 				83092A6A3240A9C9A9DFA82F /* Pods_Photomorgana.framework in Frameworks */,
 			);
@@ -194,6 +198,7 @@
 		0A0CF07A246964540033BB4E /* Photomorgana */ = {
 			isa = PBXGroup;
 			children = (
+				3D5FB18624813DC20096EFE2 /* Photomorgana.entitlements */,
 				3D5FB16C2480E2A20096EFE2 /* ExploreTableViewCell.swift */,
 				3D5FB174248100260096EFE2 /* DescCollection.swift */,
 				3D5FB16B2480E2A20096EFE2 /* ExploreViewController.swift */,
@@ -272,6 +277,7 @@
 		0AF1F9A024728A28000CD720 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3D5FB18724813EE20096EFE2 /* CloudKit.framework */,
 				0AF1F9A124728A28000CD720 /* Photos.framework */,
 				BBAECA659D5BD74728592041 /* Pods_Photomorgana.framework */,
 				C46C190C6A3C0B9F6787FFD8 /* Pods_Photomorgana_PhotomorganaUITests.framework */,
@@ -750,7 +756,7 @@
 				CODE_SIGN_ENTITLEMENTS = Photomorgana/Photomorgana.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B4RJ84758R;
+				DEVELOPMENT_TEAM = YPH4FFR3Z3;
 				INFOPLIST_FILE = Photomorgana/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -772,7 +778,7 @@
 				CODE_SIGN_ENTITLEMENTS = Photomorgana/Photomorgana.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B4RJ84758R;
+				DEVELOPMENT_TEAM = YPH4FFR3Z3;
 				INFOPLIST_FILE = Photomorgana/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
