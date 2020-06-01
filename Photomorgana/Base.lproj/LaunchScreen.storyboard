@@ -14,20 +14,7 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logooo" translatesAutoresizingMaskIntoConstraints="NO" id="pGH-Uj-j7k">
-                                <rect key="frame" x="107" y="348" width="200" height="200"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="16N-Tp-s5x"/>
-                                    <constraint firstAttribute="width" constant="200" id="Dq6-28-A2s"/>
-                                </constraints>
-                            </imageView>
-                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="pGH-Uj-j7k" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="0Bb-nj-Pwq"/>
-                            <constraint firstItem="pGH-Uj-j7k" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="w2b-O2-Pl8"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
@@ -36,7 +23,4 @@
             <point key="canvasLocation" x="223" y="252"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="logooo" width="1000" height="1000"/>
-    </resources>
 </document>
