@@ -10,19 +10,23 @@ import UIKit
 import PixelEngine
 import PixelEditor
 
-class AtelierCollectionView: UICollectionViewController, UICollectionViewDelegateFlowLayout {
-    
+
+class AtelierCollectionView: UICollectionViewController, UICollectionViewDelegateFlowLayout, PixelEditViewControllerDelegate {
     var images = [UIImage]()
+    let imageEdit = UIImage()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         title = "Atelier"
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(importPhoto))
+
     }
+    
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return images.count
     }
+    
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ImageView", for: indexPath)
         
@@ -30,6 +34,67 @@ class AtelierCollectionView: UICollectionViewController, UICollectionViewDelegat
         imageView?.image = images[indexPath.item]
         
         return cell
+    }
+    
+    func pixelEditViewController(_ controller: PixelEditViewController, didEndEditing editingStack: EditingStack) {
+        let imageEdit = editingStack.makeRenderer().render(resolution: .full)
+        
+        let optionMenu = UIAlertController(title: nil, message: "Choose Option", preferredStyle: .actionSheet)
+            
+        // 2
+        let jpg = UIAlertAction(title: "JPG", style: .default){ action -> Void in
+            if let viewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ShareViewController") as? ShareViewController {
+                viewController.newShareImage = imageEdit
+                viewController.hidesBottomBarWhenPushed = true
+                self.navigationController?.pushViewController(viewController, animated: true)
+            }
+        }
+        let png = UIAlertAction(title: "PNG", style: .default){ action -> Void in
+            if let viewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ShareViewController") as? ShareViewController {
+                viewController.newShareImage = imageEdit
+                viewController.hidesBottomBarWhenPushed = true
+                self.navigationController?.pushViewController(viewController, animated: true)
+            }
+        }
+        let raw = UIAlertAction(title: "Raw", style: .default){ action -> Void in
+            if let viewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ShareViewController") as? ShareViewController {
+                viewController.newShareImage = imageEdit
+                viewController.hidesBottomBarWhenPushed = true
+                self.navigationController?.pushViewController(viewController, animated: true)
+            }
+        }
+        let pdf = UIAlertAction(title: "PDF", style: .default){ action -> Void in
+            if let viewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ShareViewController") as? ShareViewController {
+                viewController.newShareImage = imageEdit
+                viewController.hidesBottomBarWhenPushed = true
+                self.navigationController?.pushViewController(viewController, animated: true)
+            }
+        }
+            
+        // 3
+        let cancelAction = UIAlertAction(title: "Cancel", style: .cancel)
+            
+        // 4
+        optionMenu.addAction(jpg)
+        optionMenu.addAction(png)
+        optionMenu.addAction(raw)
+        optionMenu.addAction(pdf)
+        optionMenu.addAction(cancelAction)
+            
+        // 5
+        self.present(optionMenu, animated: true, completion: nil)
+    
+    }
+    
+    func pixelEditViewControllerDidCancelEditing(in controller: PixelEditViewController) {
+        let alert = UIAlertController(title: "Cancel", message: "This action will remove your change, are you sure want to cancel?", preferredStyle: .alert)
+
+        alert.addAction(UIAlertAction(title: "Yes", style: .default) { action -> Void in
+            self.navigationController?.popToViewController(self, animated: true)
+        })
+        alert.addAction(UIAlertAction(title: "No", style: .cancel, handler: nil))
+
+        self.present(alert, animated: true)
     }
     
     @objc func importPhoto(_ sender: Any){
@@ -42,10 +107,11 @@ class AtelierCollectionView: UICollectionViewController, UICollectionViewDelegat
     }
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
-        guard let image = info[.editedImage] as? UIImage else { return }
+        guard let image = info[.originalImage] as? UIImage else { return }
+        
         dismiss(animated: true, completion: nil)
         
-        images.insert(image, at: 0)
+        images.insert(image, at: 0 )
         collectionView.reloadData()
 
     }
@@ -69,23 +135,40 @@ extension AtelierCollectionView : UIImagePickerControllerDelegate, UINavigationC
     picker.dismiss(animated: true, completion: nil)
   }
     
-  override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+    override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let optionMenu = UIAlertController(title: nil, message: "Choose Option", preferredStyle: .actionSheet)
           
-          if let viewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "EditViewController") as? EditViewController {
-              
-              let controller = PixelEditViewController.init(
-                image : images[indexPath.row]
-              )
-  //            controller.delegate = EditViewController.self
-                navigationController?.pushViewController(controller, animated: true)
-            
-  //            if let navigator = navigationController {
-  //                viewController.newImage = images[indexPath.row]
-  //                viewController.hidesBottomBarWhenPushed = true
-  //                navigator.pushViewController(viewController, animated: true)
-  //            }
-          }
-      }
-  
+        // 2
+        let edit = UIAlertAction(title: "Edit", style: .default){ action -> Void in
+            if UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "EditViewController") is EditViewController{
+                let controller = PixelEditViewController.init(image : self.images[indexPath.row])
+                    controller.delegate = self
+                    self.tabBarController?.tabBar.isHidden = true
+                    self.navigationController?.pushViewController(controller, animated: true)
+                
+                
+            }
+        }
+        let share = UIAlertAction(title: "Share", style: .default){ action -> Void in
+            if let share = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ShareViewController") as? ShareViewController {
+                if let navigator = self.navigationController {
+                    share.newShareImage = self.images[indexPath.row]
+                    navigator.pushViewController(share, animated: true)
+                }
+            }
+        }
+        let delete = UIAlertAction(title: "Delete", style: .destructive)
+          
+        // 3
+        let cancelAction = UIAlertAction(title: "Cancel", style: .cancel)
+          
+        // 4
+        optionMenu.addAction(edit)
+        optionMenu.addAction(share)
+        optionMenu.addAction(delete)
+        optionMenu.addAction(cancelAction)
+          
+        // 5
+        self.present(optionMenu, animated: true, completion: nil)
+    }
 }
-

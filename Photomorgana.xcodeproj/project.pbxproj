@@ -17,6 +17,7 @@
 		0A0CF095246964560033BB4E /* PhotomorganaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0CF094246964560033BB4E /* PhotomorganaTests.swift */; };
 		0A0CF0A0246964560033BB4E /* PhotomorganaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0CF09F246964560033BB4E /* PhotomorganaUITests.swift */; };
 		0A1236532476ECD4009F6EC1 /* BottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1236522476ECD4009F6EC1 /* BottomSheet.swift */; };
+		0A3F1A7B2484DFDB009B877B /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3F1A7A2484DFDB009B877B /* ShareViewController.swift */; };
 		0A55FC122476A01D00605CF1 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A55FC112476A01D00605CF1 /* EditViewController.swift */; };
 		0A78BECB24696D7900D7A530 /* SF-Pro-Text-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0A78BEBF24696D6000D7A530 /* SF-Pro-Text-Black.otf */; };
 		0A78BECC24696D7900D7A530 /* SF-Pro-Text-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0A78BECA24696D6100D7A530 /* SF-Pro-Text-BlackItalic.otf */; };
@@ -90,6 +91,7 @@
 		0A0CF09F246964560033BB4E /* PhotomorganaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotomorganaUITests.swift; sourceTree = "<group>"; };
 		0A0CF0A1246964560033BB4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A1236522476ECD4009F6EC1 /* BottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheet.swift; sourceTree = "<group>"; };
+		0A3F1A7A2484DFDB009B877B /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
 		0A55FC112476A01D00605CF1 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
 		0A78BEB924696D5F00D7A530 /* SF-Pro-Text-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-MediumItalic.otf"; sourceTree = "<group>"; };
 		0A78BEBA24696D5F00D7A530 /* SF-Pro-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Regular.otf"; sourceTree = "<group>"; };
@@ -245,6 +247,7 @@
 			children = (
 				0A55FC112476A01D00605CF1 /* EditViewController.swift */,
 				0A0CF07F246964540033BB4E /* AtelierCollectionView.swift */,
+				0A3F1A7A2484DFDB009B877B /* ShareViewController.swift */,
 			);
 			path = Atelier;
 			sourceTree = "<group>";
@@ -583,6 +586,7 @@
 				0A094C56247D72B8009E0C6E /* Model.xcdatamodeld in Sources */,
 				3D5FB175248100260096EFE2 /* DescCollection.swift in Sources */,
 				0A0CF07C246964540033BB4E /* AppDelegate.swift in Sources */,
+				0A3F1A7B2484DFDB009B877B /* ShareViewController.swift in Sources */,
 				0A1236532476ECD4009F6EC1 /* BottomSheet.swift in Sources */,
 				3D5FB179248100410096EFE2 /* ProfileTableViewCell.swift in Sources */,
 				0A0CF07E246964540033BB4E /* SceneDelegate.swift in Sources */,
