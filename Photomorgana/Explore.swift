@@ -8,10 +8,12 @@
 
 import UIKit
 struct Explore {
-    let profileExp : String
+    
     let imgProfileExp : UIImage
-    let imgExp : UIImage
+    let profileExp : String
     let likeExp : String
-    let commentExp : String
+    let imgExp : UIImage
     let tagExp : String
+    let commentExp : String
+    
 }

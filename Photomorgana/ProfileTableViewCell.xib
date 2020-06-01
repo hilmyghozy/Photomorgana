@@ -91,7 +91,7 @@
                 <outlet property="likeCollection" destination="UmM-d6-tY0" id="HUZ-fk-2S0"/>
                 <outlet property="tagCollection" destination="Bkb-7C-2Iv" id="eJ2-qx-F6C"/>
             </connections>
-            <point key="canvasLocation" x="-17.39130434782609" y="9.7098214285714288"/>
+            <point key="canvasLocation" x="292.75362318840581" y="15.736607142857142"/>
         </tableViewCell>
     </objects>
     <resources>

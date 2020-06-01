@@ -8,7 +8,8 @@
 
 import UIKit
 var ExploreDesc : [Explore] = [
-    Explore(profileExp: "Name", imgProfileExp: UIImage(named: "city")!, imgExp: UIImage(named: "city")!, likeExp: "20", commentExp: "20", tagExp: "city"),
-Explore(profileExp: "Name", imgProfileExp: UIImage(named: "city")!, imgExp: UIImage(named: "city")!, likeExp: "20", commentExp: "20", tagExp: "city")
+    Explore(imgProfileExp: UIImage(named: "logooo")!, profileExp: "Nani", likeExp: "20", imgExp: UIImage(named: "city")!, tagExp: "city", commentExp: "20"),
+
+    Explore(imgProfileExp: UIImage(named: "logooo")!, profileExp: "Bule Edan", likeExp: "110", imgExp: UIImage(named: "city")!, tagExp: "person", commentExp: "112")
     
 ]

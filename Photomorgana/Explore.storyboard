@@ -63,7 +63,8 @@
                         <viewLayoutGuide key="safeArea" id="As6-xT-v0b"/>
                     </view>
                     <connections>
-                        <outlet property="exploreTableView" destination="I1d-r8-4q4" id="gIJ-zq-bKW"/>
+                        <outlet property="exploreTableView" destination="I1d-r8-4q4" id="2QI-2P-oTr"/>
+                        <outlet property="searchBar" destination="RFE-pv-kBc" id="R1l-5r-Z0f"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DTe-s7-wCL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
