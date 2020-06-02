@@ -52,6 +52,8 @@
 		3D5FB18824813EE20096EFE2 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5FB18724813EE20096EFE2 /* CloudKit.framework */; };
 		3D6B6D782484F44200E21DDD /* ExpTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6B6D762484F44200E21DDD /* ExpTableViewCell.swift */; };
 		3D6B6D792484F44200E21DDD /* ExpTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D6B6D772484F44200E21DDD /* ExpTableViewCell.xib */; };
+		3D6B6D7B24868E0F00E21DDD /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6B6D7A24868E0F00E21DDD /* SettingsController.swift */; };
+		3D6B6D7D24869ED900E21DDD /* DetailCommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6B6D7C24869ED900E21DDD /* DetailCommentViewController.swift */; };
 		83092A6A3240A9C9A9DFA82F /* Pods_Photomorgana.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBAECA659D5BD74728592041 /* Pods_Photomorgana.framework */; };
 		B30396497BA85B607B297799 /* Pods_Photomorgana_PhotomorganaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C46C190C6A3C0B9F6787FFD8 /* Pods_Photomorgana_PhotomorganaUITests.framework */; };
 /* End PBXBuildFile section */
@@ -128,6 +130,8 @@
 		3D5FB18724813EE20096EFE2 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		3D6B6D762484F44200E21DDD /* ExpTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpTableViewCell.swift; sourceTree = "<group>"; };
 		3D6B6D772484F44200E21DDD /* ExpTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExpTableViewCell.xib; sourceTree = "<group>"; };
+		3D6B6D7A24868E0F00E21DDD /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		3D6B6D7C24869ED900E21DDD /* DetailCommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCommentViewController.swift; sourceTree = "<group>"; };
 		3DCA61CF247B81820058E078 /* SignUpOrLogIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUpOrLogIn.storyboard; sourceTree = "<group>"; };
 		3DCA61D0247B81820058E078 /* ProfileTab.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProfileTab.storyboard; sourceTree = "<group>"; };
 		3DCA61D1247B81830058E078 /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
@@ -218,6 +222,8 @@
 				0A1236522476ECD4009F6EC1 /* BottomSheet.swift */,
 				3D6B6D762484F44200E21DDD /* ExpTableViewCell.swift */,
 				3D6B6D772484F44200E21DDD /* ExpTableViewCell.xib */,
+				3D6B6D7A24868E0F00E21DDD /* SettingsController.swift */,
+				3D6B6D7C24869ED900E21DDD /* DetailCommentViewController.swift */,
 			);
 			path = Photomorgana;
 			sourceTree = "<group>";
@@ -581,6 +587,8 @@
 				3D5FB181248100CC0096EFE2 /* Explore.swift in Sources */,
 				3D5FB185248101200096EFE2 /* Collection.swift in Sources */,
 				0A094C56247D72B8009E0C6E /* Model.xcdatamodeld in Sources */,
+				3D6B6D7B24868E0F00E21DDD /* SettingsController.swift in Sources */,
+				3D6B6D7D24869ED900E21DDD /* DetailCommentViewController.swift in Sources */,
 				3D5FB175248100260096EFE2 /* DescCollection.swift in Sources */,
 				0A0CF07C246964540033BB4E /* AppDelegate.swift in Sources */,
 				0A1236532476ECD4009F6EC1 /* BottomSheet.swift in Sources */,

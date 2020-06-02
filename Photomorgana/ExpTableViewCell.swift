@@ -23,7 +23,8 @@ class ExpTableViewCell: UITableViewCell {
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
+        profileImg.layer.cornerRadius = profileImg.frame.size.height/2
+       profileImg.clipsToBounds = true
         // Configure the view for the selected state
     }
     
