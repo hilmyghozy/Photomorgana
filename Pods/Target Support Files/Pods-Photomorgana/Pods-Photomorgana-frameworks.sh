@@ -199,11 +199,13 @@ fi
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/PixelEditor/PixelEditor.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/PixelEngine/PixelEngine.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/TagListView/TagListView.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/TransitionPatch/TransitionPatch.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/PixelEditor/PixelEditor.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/PixelEngine/PixelEngine.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/TagListView/TagListView.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/TransitionPatch/TransitionPatch.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then

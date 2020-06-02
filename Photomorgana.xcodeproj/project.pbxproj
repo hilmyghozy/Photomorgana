@@ -19,6 +19,8 @@
 		0A1236532476ECD4009F6EC1 /* BottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1236522476ECD4009F6EC1 /* BottomSheet.swift */; };
 		0A3F1A7B2484DFDB009B877B /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3F1A7A2484DFDB009B877B /* ShareViewController.swift */; };
 		0A55FC122476A01D00605CF1 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A55FC112476A01D00605CF1 /* EditViewController.swift */; };
+		0A68E25C2486278100CE9CA4 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A68E25B2486278100CE9CA4 /* ExploreViewController.swift */; };
+		0A68E25E24862B4100CE9CA4 /* ShareDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A68E25D24862B4100CE9CA4 /* ShareDetailViewController.swift */; };
 		0A78BECB24696D7900D7A530 /* SF-Pro-Text-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0A78BEBF24696D6000D7A530 /* SF-Pro-Text-Black.otf */; };
 		0A78BECC24696D7900D7A530 /* SF-Pro-Text-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0A78BECA24696D6100D7A530 /* SF-Pro-Text-BlackItalic.otf */; };
 		0A78BECD24696D7900D7A530 /* SF-Pro-Text-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0A78BEC024696D6000D7A530 /* SF-Pro-Text-Bold.otf */; };
@@ -40,7 +42,6 @@
 		0A7BDFAD24725CFC00655024 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A7BDFAC24725CFC00655024 /* Main.storyboard */; };
 		0AF1F9A224728A28000CD720 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF1F9A124728A28000CD720 /* Photos.framework */; };
 		0D239F6F8729DBBB319FF0A5 /* Pods_PhotomorganaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EF41AD60FBEEFD2BDCF0F3 /* Pods_PhotomorganaTests.framework */; };
-		3D5FB16F2480E2A20096EFE2 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5FB16B2480E2A20096EFE2 /* ExploreViewController.swift */; };
 		3D5FB1732480FFEB0096EFE2 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5FB1722480FFEB0096EFE2 /* ThirdViewController.swift */; };
 		3D5FB175248100260096EFE2 /* DescCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5FB174248100260096EFE2 /* DescCollection.swift */; };
 		3D5FB1772481002F0096EFE2 /* Explore.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D5FB1762481002F0096EFE2 /* Explore.storyboard */; };
@@ -93,6 +94,8 @@
 		0A1236522476ECD4009F6EC1 /* BottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheet.swift; sourceTree = "<group>"; };
 		0A3F1A7A2484DFDB009B877B /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
 		0A55FC112476A01D00605CF1 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		0A68E25B2486278100CE9CA4 /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		0A68E25D24862B4100CE9CA4 /* ShareDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareDetailViewController.swift; sourceTree = "<group>"; };
 		0A78BEB924696D5F00D7A530 /* SF-Pro-Text-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-MediumItalic.otf"; sourceTree = "<group>"; };
 		0A78BEBA24696D5F00D7A530 /* SF-Pro-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Regular.otf"; sourceTree = "<group>"; };
 		0A78BEBB24696D5F00D7A530 /* SF-Pro-Text-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Light.otf"; sourceTree = "<group>"; };
@@ -116,7 +119,6 @@
 		0AF1F9A124728A28000CD720 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
 		16A68E7B1FE807D5C1ED31C8 /* Pods-PhotomorganaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotomorganaTests.release.xcconfig"; path = "Target Support Files/Pods-PhotomorganaTests/Pods-PhotomorganaTests.release.xcconfig"; sourceTree = "<group>"; };
 		18EF41AD60FBEEFD2BDCF0F3 /* Pods_PhotomorganaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotomorganaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D5FB16B2480E2A20096EFE2 /* ExploreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExploreViewController.swift; path = ../../../Downloads/ExploreViewController.swift; sourceTree = "<group>"; };
 		3D5FB1722480FFEB0096EFE2 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		3D5FB174248100260096EFE2 /* DescCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescCollection.swift; sourceTree = "<group>"; };
 		3D5FB1762481002F0096EFE2 /* Explore.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Explore.storyboard; path = Photomorgana/Explore.storyboard; sourceTree = SOURCE_ROOT; };
@@ -202,8 +204,8 @@
 			children = (
 				3D5FB18624813DC20096EFE2 /* Photomorgana.entitlements */,
 				3D5FB174248100260096EFE2 /* DescCollection.swift */,
-				3D5FB16B2480E2A20096EFE2 /* ExploreViewController.swift */,
 				3D5FB180248100CC0096EFE2 /* Explore.swift */,
+				0A68E25B2486278100CE9CA4 /* ExploreViewController.swift */,
 				3D5FB178248100410096EFE2 /* ProfileTableViewCell.swift */,
 				3D5FB17C2481006F0096EFE2 /* ProfileTableViewCell.xib */,
 				3D5FB17A2481005A0096EFE2 /* DescExplore.swift */,
@@ -248,6 +250,7 @@
 				0A55FC112476A01D00605CF1 /* EditViewController.swift */,
 				0A0CF07F246964540033BB4E /* AtelierCollectionView.swift */,
 				0A3F1A7A2484DFDB009B877B /* ShareViewController.swift */,
+				0A68E25D24862B4100CE9CA4 /* ShareDetailViewController.swift */,
 			);
 			path = Atelier;
 			sourceTree = "<group>";
@@ -580,8 +583,10 @@
 				3D6B6D782484F44200E21DDD /* ExpTableViewCell.swift in Sources */,
 				0A0CF080246964540033BB4E /* AtelierCollectionView.swift in Sources */,
 				0A55FC122476A01D00605CF1 /* EditViewController.swift in Sources */,
+				0A68E25C2486278100CE9CA4 /* ExploreViewController.swift in Sources */,
 				3D5FB17B2481005A0096EFE2 /* DescExplore.swift in Sources */,
 				3D5FB181248100CC0096EFE2 /* Explore.swift in Sources */,
+				0A68E25E24862B4100CE9CA4 /* ShareDetailViewController.swift in Sources */,
 				3D5FB185248101200096EFE2 /* Collection.swift in Sources */,
 				0A094C56247D72B8009E0C6E /* Model.xcdatamodeld in Sources */,
 				3D5FB175248100260096EFE2 /* DescCollection.swift in Sources */,
@@ -590,7 +595,6 @@
 				0A1236532476ECD4009F6EC1 /* BottomSheet.swift in Sources */,
 				3D5FB179248100410096EFE2 /* ProfileTableViewCell.swift in Sources */,
 				0A0CF07E246964540033BB4E /* SceneDelegate.swift in Sources */,
-				3D5FB16F2480E2A20096EFE2 /* ExploreViewController.swift in Sources */,
 				3D5FB1732480FFEB0096EFE2 /* ThirdViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

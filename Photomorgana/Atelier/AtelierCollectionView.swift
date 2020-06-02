@@ -39,7 +39,7 @@ class AtelierCollectionView: UICollectionViewController, UICollectionViewDelegat
     func pixelEditViewController(_ controller: PixelEditViewController, didEndEditing editingStack: EditingStack) {
         let imageEdit = editingStack.makeRenderer().render(resolution: .full)
         
-        let optionMenu = UIAlertController(title: nil, message: "Choose Option", preferredStyle: .actionSheet)
+        let optionMenu = UIAlertController(title: nil, message: "Save As", preferredStyle: .actionSheet)
             
         // 2
         let jpg = UIAlertAction(title: "JPG", style: .default){ action -> Void in
@@ -107,7 +107,7 @@ class AtelierCollectionView: UICollectionViewController, UICollectionViewDelegat
     }
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
-        guard let image = info[.originalImage] as? UIImage else { return }
+        guard let image = info[.editedImage] as? UIImage else { return }
         
         dismiss(animated: true, completion: nil)
         
@@ -131,9 +131,9 @@ class AtelierCollectionView: UICollectionViewController, UICollectionViewDelegat
 
 extension AtelierCollectionView : UIImagePickerControllerDelegate, UINavigationControllerDelegate {
   
-  func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
-    picker.dismiss(animated: true, completion: nil)
-  }
+    func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
+        picker.dismiss(animated: true, completion: nil)
+    }
     
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let optionMenu = UIAlertController(title: nil, message: "Choose Option", preferredStyle: .actionSheet)
@@ -150,9 +150,9 @@ extension AtelierCollectionView : UIImagePickerControllerDelegate, UINavigationC
             }
         }
         let share = UIAlertAction(title: "Share", style: .default){ action -> Void in
-            if let share = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ShareViewController") as? ShareViewController {
+            if let share = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ShareDetailViewController") as? ShareDetailViewController {
                 if let navigator = self.navigationController {
-                    share.newShareImage = self.images[indexPath.row]
+                    share.shareImagePriview = self.images[indexPath.row]
                     navigator.pushViewController(share, animated: true)
                 }
             }
