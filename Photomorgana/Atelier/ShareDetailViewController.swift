@@ -43,12 +43,31 @@ class ShareDetailViewController: UIViewController, TagListViewDelegate {
         
     }
     
+    func tagPressed(_ title: String, tagView: TagView, sender: TagListView) {
+        print("Tag pressed: \(title), \(sender)")
+        tagView.isSelected = !tagView.isSelected
+    }
+    
+    func tagRemoveButtonPressed(_ title: String, tagView: TagView, sender: TagListView) {
+        print("Tag Remove pressed: \(title), \(sender)")
+        sender.removeTagView(tagView)
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return ExploreDesc.count
+    }
+    
     @objc func sharePhoto(_sender: Any){
-        
+        if let share = UIStoryboard(name: "Explore", bundle: nil).instantiateViewController(withIdentifier: "ExploreViewController") as? ExploreViewController {
+            if let navigator = self.navigationController {
+                navigator.pushViewController(share, animated: true)
+            }
+        }
     }
     
     @objc func backToAtelier(_sender: Any){
         navigationController?.popViewController(animated: true)
+        tabBarController?.tabBar.isHidden = false
     }
 
 }

@@ -91,6 +91,7 @@ class AtelierCollectionView: UICollectionViewController, UICollectionViewDelegat
 
         alert.addAction(UIAlertAction(title: "Yes", style: .default) { action -> Void in
             self.navigationController?.popToViewController(self, animated: true)
+            self.tabBarController?.tabBar.isHidden = false
         })
         alert.addAction(UIAlertAction(title: "No", style: .cancel, handler: nil))
 

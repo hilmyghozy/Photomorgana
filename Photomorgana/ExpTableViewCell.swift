@@ -16,6 +16,7 @@ class ExpTableViewCell: UITableViewCell {
     @IBOutlet weak var imageCollection: UIImageView!
     @IBOutlet weak var profileName: UILabel!
     @IBOutlet weak var profileImg: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

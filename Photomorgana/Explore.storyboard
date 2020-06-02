@@ -42,6 +42,10 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="dxF-Cf-x0c" firstAttribute="leading" secondItem="c9J-3X-xwn" secondAttribute="leading" id="qos-4Q-FA4"/>
+                                    <constraint firstAttribute="trailing" secondItem="9yJ-8Z-pVc" secondAttribute="trailing" id="wEL-b1-Qei"/>
+                                </constraints>
                             </stackView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="I1d-r8-4q4">
                                 <rect key="frame" x="0.0" y="149" width="414" height="713"/>

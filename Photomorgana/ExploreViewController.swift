@@ -12,6 +12,7 @@ class ExploreViewController: UIViewController {
 
     
     @IBOutlet weak var exploreTableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 //        exploreTableView.dataSource = self
