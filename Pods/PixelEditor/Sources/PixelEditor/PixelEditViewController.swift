@@ -20,7 +20,7 @@
 // THE SOFTWARE.
 
 import UIKit
-import Photos
+
 import PixelEngine
 
 
@@ -39,7 +39,9 @@ public final class PixelEditContext {
     case endAdjustment(save: Bool)
     case endMasking(save: Bool)
     case removeAllMasking
+
     case setFilter((inout EditingStack.Edit.Filters) -> Void)
+
     case commit
     case revert
     case undo
