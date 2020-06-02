@@ -3,23 +3,27 @@ PODS:
     - PixelEngine (~> 0.2.0)
     - TransitionPatch (~> 1.0.0)
   - PixelEngine (0.2.1)
+  - TagListView (1.4.0)
   - TransitionPatch (1.0.2)
 
 DEPENDENCIES:
   - PixelEditor
   - PixelEngine
+  - TagListView (~> 1.0)
 
 SPEC REPOS:
   trunk:
     - PixelEditor
     - PixelEngine
+    - TagListView
     - TransitionPatch
 
 SPEC CHECKSUMS:
   PixelEditor: 2982b2c613111b809662f8f91e29f1b0204ff1b6
   PixelEngine: d0684b3e0d3efb348d13cea320731dedaf3f4965
+  TagListView: 987b0bdbb16cd9d9e7c0e2ec32aff37ecba8b173
   TransitionPatch: c02b48b1429255b14ef82b7e411034e0958b9681
 
-PODFILE CHECKSUM: 2d729200994e973c71b12e43531663f5bc494448
+PODFILE CHECKSUM: eb28a05fc14d1143560b46245ead336c4102ad61
 
 COCOAPODS: 1.9.1

@@ -8,6 +8,7 @@ target 'Photomorgana' do
   # Pods for Photomorgana
 pod 'PixelEngine'
 pod 'PixelEditor'
+pod 'TagListView', '~> 1.0'
 
   target 'PhotomorganaTests' do
     inherit! :search_paths

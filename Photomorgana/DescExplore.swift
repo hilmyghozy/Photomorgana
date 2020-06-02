@@ -1,0 +1,25 @@
+//
+//  DescExplore.swift
+//  Photomorgana
+//
+//  Created by Nani Sukma Putri Pratama on 28/05/20.
+//  Copyright © 2020 hilmy ghozy. All rights reserved.
+//
+
+import UIKit
+
+//
+//var imageCollection: UIImageView!
+//var imgProfile: UIImage!
+//var captionCollection: UILabel!
+//var likeCollection: UILabel!
+//var commentCollection: UILabel!
+//var tagCollection: UILabel!
+
+var ExploreDesc : [Explore] = [
+    Explore(imgProfileExp: UIImage(named: "logooo")!, profileExp: "Nani", likeExp: "20", imgExp: UIImage(named: "city")!, tagExp: "city", commentExp: "20"),
+ 
+    Explore(imgProfileExp: UIImage(named: "logooo")!, profileExp: "Bule Edan", likeExp: "110", imgExp: UIImage(named: "city")!, tagExp: "person", commentExp: "112")
+    
+    
+]

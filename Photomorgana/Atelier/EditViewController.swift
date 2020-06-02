@@ -20,6 +20,7 @@ class EditViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         imgPriview.image = newImage
+        tabBarController?.tabBar.isHidden = true
     }
 }
 
