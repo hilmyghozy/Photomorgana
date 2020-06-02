@@ -17,9 +17,9 @@ import UIKit
 //var tagCollection: UILabel!
 
 var ExploreDesc : [Explore] = [
-    Explore(imgProfileExp: UIImage(named: "logooo")!, profileExp: "Nani", likeExp: "20", imgExp: UIImage(named: "city")!, tagExp: "city", commentExp: "20"),
- 
-    Explore(imgProfileExp: UIImage(named: "logooo")!, profileExp: "Bule Edan", likeExp: "110", imgExp: UIImage(named: "city")!, tagExp: "person", commentExp: "112")
+    Explore(imgProfileExp: UIImage(named: "Unknown")!, profileExp: "Nani", likeExp: "20", imgExp: UIImage(named: "city")!, tagExp: "city", commentExp: "20"),
+
+    Explore(imgProfileExp: UIImage(named: "Unknown")!, profileExp: "Bule Edan", likeExp: "110", imgExp: UIImage(named: "city")!, tagExp: "person", commentExp: "112")
     
     
 ]

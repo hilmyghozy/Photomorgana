@@ -66,13 +66,14 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="As6-xT-v0b"/>
                     </view>
+                    <navigationItem key="navigationItem" id="3fA-l9-43R"/>
                     <connections>
                         <outlet property="exploreTableView" destination="I1d-r8-4q4" id="2QI-2P-oTr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DTe-s7-wCL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-242.0289855072464" y="-53.571428571428569"/>
+            <point key="canvasLocation" x="668.11594202898561" y="-53.571428571428569"/>
         </scene>
     </scenes>
 </document>

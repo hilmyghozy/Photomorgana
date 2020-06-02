@@ -12,9 +12,12 @@ import UIKit
 class ThirdViewController: UIViewController {
 
    
+    @IBOutlet weak var profileImg: UIImageView!
     @IBOutlet weak var profileTable: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        profileImg.layer.cornerRadius = profileImg.frame.size.height/2
+        profileImg.clipsToBounds = true
         profileTable.dataSource = self
         profileTable.register(UINib(nibName: "ProfileTableViewCell", bundle: nil), forCellReuseIdentifier: "CollectionCell")
 
