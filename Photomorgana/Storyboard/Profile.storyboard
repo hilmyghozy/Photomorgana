@@ -130,7 +130,7 @@
                     <navigationItem key="navigationItem" title="Nani" id="bWL-sD-r3T"/>
                     <connections>
                         <outlet property="profileImg" destination="RLl-6s-FZs" id="799-cY-co6"/>
-                        <outlet property="profileTable" destination="4PR-pK-Izs" id="KEf-pn-Ka3"/>
+                        <outlet property="profileTable" destination="4PR-pK-Izs" id="Lpi-Mt-hQ3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vFM-TC-3gG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

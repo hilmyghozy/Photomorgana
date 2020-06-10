@@ -15,6 +15,8 @@ class ExploreViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "Explore"
+        tabBarController?.tabBar.isHidden = false
 //        exploreTableView.dataSource = self
 //        exploreTableView.register(UINib(nibName:"ExploreTableViewCell", bundle: nil), forCellReuseIdentifier: "CellExplore")
 //    }
