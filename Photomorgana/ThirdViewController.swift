@@ -10,8 +10,8 @@ import UIKit
 
 
 class ThirdViewController: UIViewController {
-
-   
+//class SpeechService.swift
+   let speech = SpeechService()
     @IBOutlet weak var profileImg: UIImageView!
     @IBOutlet weak var profileTable: UITableView!
     override func viewDidLoad() {
@@ -20,6 +20,7 @@ class ThirdViewController: UIViewController {
         profileImg.clipsToBounds = true
         profileTable.dataSource = self
         profileTable.register(UINib(nibName: "ProfileTableViewCell", bundle: nil), forCellReuseIdentifier: "CollectionCell")
+
 
     }
 
@@ -36,6 +37,12 @@ extension ThirdViewController: UITableViewDataSource{
         cell.likeCollection.text = collection.like
         cell.tagCollection.text = collection.tag
         cell.captionCollection.text = collection.caption
+        
+        // Accessibility for Caption
+        cell.captionCollection.isAccessibilityElement = true
+        cell.captionCollection.accessibilityValue = collection.caption
+        speech.say("Caption for this photo are " + collection.caption)
+        
         cell.imageCollection.image = collection.imageCollection
         
         return cell
