@@ -9,42 +9,24 @@
 import UIKit
 
 class ExploreViewController: UIViewController {
-
+let speech = SpeechService()
     
+    @IBOutlet weak var tag3: UILabel!
+    @IBOutlet weak var tag2: UILabel!
+    @IBOutlet weak var tag1: UILabel!
     @IBOutlet weak var exploreTableView: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Explore"
         tabBarController?.tabBar.isHidden = false
-//        exploreTableView.dataSource = self
-//        exploreTableView.register(UINib(nibName:"ExploreTableViewCell", bundle: nil), forCellReuseIdentifier: "CellExplore")
-//    }
-//
-//
-//}
-//extension ExploreViewController: UITableViewDataSource{
-//    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-//        return ExploreDesc.count
-//    }
-//
-//    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-//        let cell = tableView.dequeueReusableCell(withIdentifier: "CellExplore", for: indexPath) as! ExploreTableViewCell
-//        let exp = ExploreDesc[indexPath.row]
-//        cell.commentCollection.text = exp.commentExp
-//        cell.likeCollection.text = exp.likeExp
-//        cell.tagImage.text = exp.tagExp
-//        cell.imageCollection.image = exp.imgExp
-//        cell.imageProfile.image = exp.imgProfileExp
-//        cell.profileName.text = exp.profileExp
-//        return cell
-//    }
-//
-//
-//}
+
         //super.viewDidLoad()
         exploreTableView.dataSource = self
         exploreTableView.register(UINib(nibName: "ExpTableViewCell", bundle: nil), forCellReuseIdentifier: "ExpCell")
+        tag1.text = "City"
+        tag2.text = "Transport"
+        tag3.text = "Wedding"
 
     }
 
@@ -63,6 +45,22 @@ extension ExploreViewController: UITableViewDataSource{
         cell.imageCollection.image = explore.imgExp
         cell.profileImg.image = explore.imgProfileExp
         cell.profileName.text = explore.profileExp
+        
+        cell.commentExp.isAccessibilityElement = true
+        cell.commentExp.accessibilityValue = explore.commentExp
+        speech.say("The comments for this photo are " + explore.commentExp)
+        
+        cell.likeExp.isAccessibilityElement = true
+        cell.likeExp.accessibilityValue = explore.likeExp
+        speech.say("The likes for this photo are " + explore.likeExp)
+        
+        cell.tagExp.isAccessibilityElement = true
+        cell.tagExp.accessibilityValue = explore.tagExp
+        speech.say("The tags for this photo are " + explore.tagExp)
+        
+        cell.profileName.isAccessibilityElement = true
+        cell.profileName.accessibilityValue = explore.profileExp
+        speech.say("The user who uploaded this photo is " + explore.profileExp)
         
         return cell
     }

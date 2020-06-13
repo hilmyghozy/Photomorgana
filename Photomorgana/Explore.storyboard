@@ -70,6 +70,9 @@
                     <navigationItem key="navigationItem" title="Explore" id="3fA-l9-43R"/>
                     <connections>
                         <outlet property="exploreTableView" destination="I1d-r8-4q4" id="2QI-2P-oTr"/>
+                        <outlet property="tag1" destination="dxF-Cf-x0c" id="mMW-bV-csA"/>
+                        <outlet property="tag2" destination="E8R-bn-tfd" id="bRQ-8n-eI1"/>
+                        <outlet property="tag3" destination="9yJ-8Z-pVc" id="8J1-ZH-vwo"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DTe-s7-wCL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
