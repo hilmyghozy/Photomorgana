@@ -16,11 +16,12 @@ class EditViewController: UIViewController {
     @IBOutlet weak var imgPriview: UIImageView!
     
     var newImage: UIImage!
-    
+    let speech = SpeechService()
     override func viewDidLoad() {
         super.viewDidLoad()
         imgPriview.image = newImage
         tabBarController?.tabBar.isHidden = true
+        
     }
 }
 

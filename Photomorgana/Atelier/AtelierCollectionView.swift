@@ -9,9 +9,11 @@
 import UIKit
 import PixelEngine
 import PixelEditor
+import AVFoundation
 
 
 class AtelierCollectionView: UICollectionViewController, UICollectionViewDelegateFlowLayout, PixelEditViewControllerDelegate {
+    let speech = SpeechService()
     var images = [UIImage]()
     let imageEdit = UIImage()
     
@@ -19,8 +21,13 @@ class AtelierCollectionView: UICollectionViewController, UICollectionViewDelegat
         super.viewDidLoad()
         
         title = "Atelier"
+        
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(importPhoto))
 
+    }
+    override func viewDidAppear(_ animated: Bool) {
+        let welcome = "You are in Atelier screen."
+        speech.say(welcome)
     }
     
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -146,6 +153,8 @@ extension AtelierCollectionView : UIImagePickerControllerDelegate, UINavigationC
                     controller.delegate = self
                     self.tabBarController?.tabBar.isHidden = true
                     self.navigationController?.pushViewController(controller, animated: true)
+                    let welcome = "You are in Edit screen."
+                    self.speech.say(welcome)
                 
                 
             }
@@ -168,8 +177,21 @@ extension AtelierCollectionView : UIImagePickerControllerDelegate, UINavigationC
         optionMenu.addAction(share)
         optionMenu.addAction(delete)
         optionMenu.addAction(cancelAction)
-          
+        
+        
+        //Accsessibility Element
+        share.isAccessibilityElement = true
+        share.accessibilityLabel = "Share your image to world"
+        edit.isAccessibilityElement = true
+        edit.accessibilityLabel = "Edit your image"
+        delete.isAccessibilityElement = true
+        delete.accessibilityLabel = "Delete your image"
+        cancelAction.isAccessibilityElement = true
+        cancelAction.accessibilityLabel = "cancel action"
+
+        
         // 5
         self.present(optionMenu, animated: true, completion: nil)
+        
     }
 }

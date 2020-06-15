@@ -23,6 +23,10 @@ class ThirdViewController: UIViewController {
 
 
     }
+    override func viewDidAppear(_ animated: Bool) {
+        let welcome = "You are in profile screen."
+        speech.say(welcome)
+    }
 
 }
 extension ThirdViewController: UITableViewDataSource{
@@ -39,9 +43,9 @@ extension ThirdViewController: UITableViewDataSource{
         cell.captionCollection.text = collection.caption
         
         // Accessibility for Caption
-        cell.captionCollection.isAccessibilityElement = true
-        cell.captionCollection.accessibilityValue = collection.caption
-        speech.say("Caption for this photo are " + collection.caption)
+//        cell.captionCollection.isAccessibilityElement = true
+//        cell.captionCollection.accessibilityValue = collection.caption
+//        speech.say("Caption for this photo are " + collection.caption)
         
         cell.imageCollection.image = collection.imageCollection
         

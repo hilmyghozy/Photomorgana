@@ -29,13 +29,34 @@ let speech = SpeechService()
         tag3.text = "Wedding"
 
     }
+    
+    
 
 }
 extension ExploreViewController: UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return ExploreDesc.count
     }
-    
+   
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "ExpCell", for: indexPath) as! ExpTableViewCell
+        let explore = ExploreDesc[indexPath.row]
+        cell.commentExp.isAccessibilityElement = true
+        cell.commentExp.accessibilityValue = explore.commentExp
+        speech.say("The comments for this photo are " + explore.commentExp)
+
+        cell.likeExp.isAccessibilityElement = true
+        cell.likeExp.accessibilityValue = explore.likeExp
+        speech.say("The likes for this photo are " + explore.likeExp)
+
+        cell.tagExp.isAccessibilityElement = true
+        cell.tagExp.accessibilityValue = explore.tagExp
+        speech.say("The tags for this photo are " + explore.tagExp)
+
+        cell.profileName.isAccessibilityElement = true
+        cell.profileName.accessibilityValue = explore.profileExp
+        speech.say("The user who uploaded this photo is " + explore.profileExp)
+    }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "ExpCell", for: indexPath) as! ExpTableViewCell
         let explore = ExploreDesc[indexPath.row]
@@ -45,23 +66,23 @@ extension ExploreViewController: UITableViewDataSource{
         cell.imageCollection.image = explore.imgExp
         cell.profileImg.image = explore.imgProfileExp
         cell.profileName.text = explore.profileExp
-        
-        cell.commentExp.isAccessibilityElement = true
-        cell.commentExp.accessibilityValue = explore.commentExp
-        speech.say("The comments for this photo are " + explore.commentExp)
-        
-        cell.likeExp.isAccessibilityElement = true
-        cell.likeExp.accessibilityValue = explore.likeExp
-        speech.say("The likes for this photo are " + explore.likeExp)
-        
-        cell.tagExp.isAccessibilityElement = true
-        cell.tagExp.accessibilityValue = explore.tagExp
-        speech.say("The tags for this photo are " + explore.tagExp)
-        
-        cell.profileName.isAccessibilityElement = true
-        cell.profileName.accessibilityValue = explore.profileExp
-        speech.say("The user who uploaded this photo is " + explore.profileExp)
-        
+        // Accessibility ELement for each component of cell in table view
+//        cell.commentExp.isAccessibilityElement = true
+//        cell.commentExp.accessibilityValue = explore.commentExp
+//        speech.say("The comments for this photo are " + explore.commentExp)
+//
+//        cell.likeExp.isAccessibilityElement = true
+//        cell.likeExp.accessibilityValue = explore.likeExp
+//        speech.say("The likes for this photo are " + explore.likeExp)
+//
+//        cell.tagExp.isAccessibilityElement = true
+//        cell.tagExp.accessibilityValue = explore.tagExp
+//        speech.say("The tags for this photo are " + explore.tagExp)
+//
+//        cell.profileName.isAccessibilityElement = true
+//        cell.profileName.accessibilityValue = explore.profileExp
+//        speech.say("The user who uploaded this photo is " + explore.profileExp)
+//
         return cell
     }
 }
