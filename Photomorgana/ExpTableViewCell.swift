@@ -19,6 +19,14 @@ class ExpTableViewCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        profileName.font = UIFont.preferredFont(forTextStyle: .body)
+        profileName.adjustsFontForContentSizeCategory = true
+        likeExp.font = UIFont.preferredFont(forTextStyle: .caption1)
+        likeExp.adjustsFontForContentSizeCategory = true
+        commentExp.font = UIFont.preferredFont(forTextStyle: .caption1)
+        commentExp.adjustsFontForContentSizeCategory = true
+        tagExp.font = UIFont.preferredFont(forTextStyle: .caption1)
+        tagExp.adjustsFontForContentSizeCategory = true
         // Initialization code
     }
 

@@ -17,7 +17,14 @@ class ProfileTableViewCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        
+        captionCollection.font = UIFont.preferredFont(forTextStyle: .body)
+        captionCollection.adjustsFontForContentSizeCategory = true
+        likeCollection.font = UIFont.preferredFont(forTextStyle: .caption1)
+        likeCollection.adjustsFontForContentSizeCategory = true
+        commentCollection.font = UIFont.preferredFont(forTextStyle: .caption1)
+        commentCollection.adjustsFontForContentSizeCategory = true
+        tagCollection.font = UIFont.preferredFont(forTextStyle: .caption1)
+        tagCollection.adjustsFontForContentSizeCategory = true
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

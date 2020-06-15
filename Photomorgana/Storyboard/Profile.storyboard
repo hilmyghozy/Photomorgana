@@ -118,7 +118,10 @@
                     </view>
                     <navigationItem key="navigationItem" title="Nani" id="bWL-sD-r3T"/>
                     <connections>
+                        <outlet property="amountofComment" destination="Vfy-OY-cSZ" id="XKH-0I-O7M"/>
+                        <outlet property="amountofLike" destination="O5C-po-ZSg" id="5o1-n3-yQc"/>
                         <outlet property="profileImg" destination="OjG-ai-eTQ" id="Em8-Gs-Qoy"/>
+                        <outlet property="profileName" destination="lAT-9u-oxf" id="j00-b8-aaG"/>
                         <outlet property="profileTable" destination="4PR-pK-Izs" id="Lpi-Mt-hQ3"/>
                     </connections>
                 </viewController>

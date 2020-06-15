@@ -27,6 +27,13 @@ let speech = SpeechService()
         tag1.text = "City"
         tag2.text = "Transport"
         tag3.text = "Wedding"
+        tag1.font = UIFont.preferredFont(forTextStyle: .body)
+        tag1.adjustsFontForContentSizeCategory = true
+        tag2.font = UIFont.preferredFont(forTextStyle: .body)
+        tag2.adjustsFontForContentSizeCategory = true
+        tag3.font = UIFont.preferredFont(forTextStyle: .body)
+        tag3.adjustsFontForContentSizeCategory = true
+        
 
     }
     

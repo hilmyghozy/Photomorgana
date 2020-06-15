@@ -60,7 +60,7 @@
                         </constraints>
                     </stackView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bkb-7C-2Iv">
-                        <rect key="frame" x="16" y="272" width="59" height="20"/>
+                        <rect key="frame" x="16" y="272" width="31" height="20"/>
                         <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
@@ -74,7 +74,6 @@
                     <constraint firstItem="AZp-78-j6E" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="8sS-JI-oyd"/>
                     <constraint firstItem="6ZU-qK-lJ2" firstAttribute="top" secondItem="AZp-78-j6E" secondAttribute="bottom" constant="23" id="IOp-Fq-fAV"/>
                     <constraint firstAttribute="trailing" secondItem="5xS-wf-b55" secondAttribute="trailing" id="L4l-lZ-rSM"/>
-                    <constraint firstItem="6ZU-qK-lJ2" firstAttribute="leading" secondItem="Bkb-7C-2Iv" secondAttribute="trailing" constant="174" id="MBx-xj-g0p"/>
                     <constraint firstItem="Bkb-7C-2Iv" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="MuP-qB-o0a"/>
                     <constraint firstAttribute="trailingMargin" secondItem="AZp-78-j6E" secondAttribute="trailing" constant="-16" id="MzB-aP-Bhd"/>
                     <constraint firstItem="5xS-wf-b55" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="6" id="O6I-G0-3es"/>

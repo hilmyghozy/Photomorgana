@@ -13,6 +13,9 @@ class ThirdViewController: UIViewController {
 //class SpeechService.swift
    let speech = SpeechService()
     @IBOutlet weak var profileImg: UIImageView!
+    @IBOutlet weak var amountofComment: UILabel!
+    @IBOutlet weak var amountofLike: UILabel!
+    @IBOutlet weak var profileName: UILabel!
     @IBOutlet weak var profileTable: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,7 +23,12 @@ class ThirdViewController: UIViewController {
         profileImg.clipsToBounds = true
         profileTable.dataSource = self
         profileTable.register(UINib(nibName: "ProfileTableViewCell", bundle: nil), forCellReuseIdentifier: "CollectionCell")
-
+        profileName.font = UIFont.preferredFont(forTextStyle: .body)
+        profileName.adjustsFontForContentSizeCategory = true
+        amountofLike.font = UIFont.preferredFont(forTextStyle: .body)
+        amountofLike.adjustsFontForContentSizeCategory = true
+        amountofComment.font = UIFont.preferredFont(forTextStyle: .body)
+        amountofComment.adjustsFontForContentSizeCategory = true
 
     }
     override func viewDidAppear(_ animated: Bool) {

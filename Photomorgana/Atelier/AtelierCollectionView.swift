@@ -21,7 +21,7 @@ class AtelierCollectionView: UICollectionViewController, UICollectionViewDelegat
         super.viewDidLoad()
         
         title = "Atelier"
-        
+       
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(importPhoto))
 
     }
